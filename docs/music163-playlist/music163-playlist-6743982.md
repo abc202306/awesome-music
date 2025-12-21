@@ -1,7 +1,7 @@
 
 # music163-playlist-6743982
 
-<img src="../assets/music163-playlist-6743982.png" width=200>
+<img src="/assets/music163-playlist-6743982.png" width=200>
 
 ## playlist-details
 
