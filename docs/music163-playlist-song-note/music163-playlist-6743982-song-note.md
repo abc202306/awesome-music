@@ -4,9 +4,9 @@
 ## Soviet March
 
 1. Soviet March.mp3 | https://music.163.com/#/song?id=5042951
-	- <audio controls src="../../assets/music163-playlist-6743982/James Hannigan - Soviet March - Reprise.mp3" title="Title"></audio>
-2. Soviet March - Reprise.mp3 | https://music.163.com/#/song?id=5042993
 	- <audio controls src="../../assets/music163-playlist-6743982/James Hannigan,The Skywalker Symphony Chorus - Soviet March.mp3" title="Title"></audio>
+2. Soviet March - Reprise.mp3 | https://music.163.com/#/song?id=5042993
+	- <audio controls src="../../assets/music163-playlist-6743982/James Hannigan - Soviet March - Reprise.mp3" title="Title"></audio>
 
 ## Hell March
 
