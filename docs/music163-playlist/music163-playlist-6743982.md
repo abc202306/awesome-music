@@ -1,7 +1,7 @@
 
 # music163-playlist-6743982
 
-<img srcset="../../assets/music163-playlist-6743982.png, https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/music163-playlist-6743982.png" width=200>
+<div><img src="../../assets/music163-playlist-6743982.png" width=200 onerror="this.style.display = 'none'"><img src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/music163-playlist-6743982.png" width=200 onerror="this.style.display = 'none'"></div>
 
 ## playlist-details
 
