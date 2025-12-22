@@ -1,0 +1,4 @@
+- name: Rewrite LFS paths for GitHub Pages
+  run: |
+    find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+    's|data-src-replace\ssrc="([^"]*/)?assets/|src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/|g'
