@@ -12,6 +12,6 @@ jobs:
       - name: Rewrite LFS paths for GitHub Pages
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|data-src-replace[[:space:]]+src="([^"]*/)?assets/|src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/|g'
+          's|src="([^"]*/)?assets/|src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/|g'
 
       # Add your deployment steps below (e.g., actions/upload-pages-artifact)
