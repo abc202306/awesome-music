@@ -62,7 +62,7 @@ layout: page
 
 ### Allied Combat 2.mp3 | <https://music.163.com/#/song?id=5042967>
 
-<audio controls data-src-replace src="" title="text" preload="none">
+<audio controls data-src-replace title="text" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Tim Wynn - Allied Combat 2.mp3" type="audio/mpeg">
 </audio>
 
