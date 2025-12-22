@@ -1,3 +1,6 @@
+---
+layout: page
+---
 
 # music163-playlist
 

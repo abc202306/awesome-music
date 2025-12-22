@@ -1,7 +1,10 @@
+---
+layout: page
+---
 
 # music163-playlist-6743982
 
-<img data-src-replace src="assets/music163-playlist-6743982.png" width=200>
+<img data-src-replace src="../../assets/music163-playlist-6743982.png" width=200>
 
 ## playlist-details
 
