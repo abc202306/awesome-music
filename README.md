@@ -5,7 +5,7 @@ permalink: /
 
 # music
 
-preview: https://github.com/abc202306/awesome-music
+preview: <https://github.com/abc202306/awesome-music>
 
 ## playlist
 

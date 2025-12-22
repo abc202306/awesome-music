@@ -6,13 +6,13 @@ layout: page
 
 ## Soviet March
 
-### Soviet March.mp3 | https://music.163.com/#/song?id=5042951
+### Soviet March.mp3 | <https://music.163.com/#/song?id=5042951>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/James Hannigan,The Skywalker Symphony Chorus - Soviet March.mp3" type="audio/mpeg">
 </audio>
 
-### Soviet March - Reprise.mp3 | https://music.163.com/#/song?id=5042993
+### Soviet March - Reprise.mp3 | <https://music.163.com/#/song?id=5042993>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/James Hannigan - Soviet March - Reprise.mp3" type="audio/mpeg">
@@ -20,19 +20,19 @@ layout: page
 
 ## Hell March
 
-### Hell March 1 - From First To Last Remix.mp3 | https://music.163.com/#/song?id=5042954
+### Hell March 1 - From First To Last Remix.mp3 | <https://music.163.com/#/song?id=5042954>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Frank Klepacki,From First to Last - Hell March 1 - From First To Last Remix.mp3" type="audio/mpeg">
 </audio>
 
-### Hell March 2 Fftl Remix.mp3 | https://music.163.com/#/song?id=5042994
+### Hell March 2 Fftl Remix.mp3 | <https://music.163.com/#/song?id=5042994>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Frank Klepacki From First to Last - Hell March 2 Fftl Remix.mp3" type="audio/mpeg">
 </audio>
 
-### Hell March 3.mp3 | https://music.163.com/#/song?id=5042952
+### Hell March 3.mp3 | <https://music.163.com/#/song?id=5042952>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Frank Klepacki - Hell March 3.mp3" type="audio/mpeg">
@@ -40,19 +40,19 @@ layout: page
 
 ## Soviet Combat
 
-### Soviet Combat 1.mp3 | https://music.163.com/#/song?id=5042961
+### Soviet Combat 1.mp3 | <https://music.163.com/#/song?id=5042961>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Tim Wynn - Soviet Combat 1.mp3" type="audio/mpeg">
 </audio>
 
-### Soviet Combat 1 - Losing.mp3 | https://music.163.com/#/song?id=5042962
+### Soviet Combat 1 - Losing.mp3 | <https://music.163.com/#/song?id=5042962>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Tim Wynn - Soviet Combat 1 - Losing.mp3" type="audio/mpeg">
 </audio>
 
-### Soviet Combat 1 - Triumphal.mp3 | https://music.163.com/#/song?id=5042963
+### Soviet Combat 1 - Triumphal.mp3 | <https://music.163.com/#/song?id=5042963>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Tim Wynn - Soviet Combat 1 - Triumphal.mp3" type="audio/mpeg">
@@ -60,19 +60,19 @@ layout: page
 
 ## Allied
 
-### Allied Combat 2.mp3 | https://music.163.com/#/song?id=5042967
+### Allied Combat 2.mp3 | <https://music.163.com/#/song?id=5042967>
 
 <audio controls data-src-replace src="" title="text" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Tim Wynn - Allied Combat 2.mp3" type="audio/mpeg">
 </audio>
 
-### Allied Combat 2 - Losing.mp3 | https://music.163.com/#/song?id=5042968
+### Allied Combat 2 - Losing.mp3 | <https://music.163.com/#/song?id=5042968>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Tim Wynn - Allied Combat 2 - Losing.mp3" type="audio/mpeg">
 </audio>
 
-### Allied Combat 2 - Triumphal.mp3 | https://music.163.com/#/song?id=5042969
+### Allied Combat 2 - Triumphal.mp3 | <https://music.163.com/#/song?id=5042969>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/Tim Wynn - Allied Combat 2 - Triumphal.mp3" type="audio/mpeg">
@@ -80,19 +80,19 @@ layout: page
 
 ## Japan
 
-### Japan Combat 1.mp3 | https://music.163.com/#/song?id=5042974
+### Japan Combat 1.mp3 | <https://music.163.com/#/song?id=5042974>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/James Hannigan - Japan Combat 1.mp3" type="audio/mpeg">
 </audio>
 
-### Japan Combat 1 - Losing.mp3 | https://music.163.com/#/song?id=5042975v
+### Japan Combat 1 - Losing.mp3 | <https://music.163.com/#/song?id=5042975v>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/James Hannigan - Japan Combat 1 - Losing.mp3" type="audio/mpeg">
 </audio>
 
-### Japan Combat 1 - Triumphal.mp3 | https://music.163.com/#/song?id=5042976
+### Japan Combat 1 - Triumphal.mp3 | <https://music.163.com/#/song?id=5042976>
 
 <audio controls title="Title" preload="none">
 <source data-src-replace src="../../assets/music163-playlist-6743982-song-note/James Hannigan - Japan Combat 1 - Triumphal.mp3" type="audio/mpeg">

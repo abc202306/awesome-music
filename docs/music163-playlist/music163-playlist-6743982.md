@@ -10,73 +10,73 @@ layout: page
 
 | playlist-id | playlist-title | url |
 | --- | --- | --- |
-| music163-playlist-6743982 | Red Alert 3（红警3原声） - 歌单 - 网易云音乐 | https://music.163.com/#/playlist?id=music163-playlist-6743982 |
+| music163-playlist-6743982 | Red Alert 3（红警3原声） - 歌单 - 网易云音乐 | <https://music.163.com/#/playlist?id=music163-playlist-6743982> |
 
 ## song-details
 
 | row-id | song-id | song-title | song-subtitle | song-time-length | playlist-id | url |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | music163-song-5042951 | Soviet March | - (游戏《红色警戒3》主题曲：苏维埃进行曲) | 02:44 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042951 |
-| 2 | music163-song-5042952 | Hell March 3 | - (地狱进行曲（3代版）) | 03:29 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042952 |
-| 3 | music163-song-5042953 | Grinder 2 | null | 02:51 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042953 |
-| 4 | music163-song-5042954 | Hell March 1 - From First To Last Remix | null | 03:53 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042954 |
-| 5 | music163-song-5042955 | Russian Celebration | null | 01:00 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042955 |
-| 6 | music163-song-5042956 | The Might of the Empire | null | 00:49 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042956 |
-| 7 | music163-song-5042957 | The Motherland | null | 02:01 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042957 |
-| 8 | music163-song-5042958 | The Red Scare | null | 02:00 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042958 |
-| 9 | music163-song-5042959 | The Calm Before... | null | 01:04 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042959 |
-| 10 | music163-song-5042960 | The European Storm | null | 02:13 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042960 |
-| 11 | music163-song-5042961 | Soviet Combat 1 | null | 01:58 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042961 |
-| 12 | music163-song-5042962 | Soviet Combat 1 - Losing | null | 01:04 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042962 |
-| 13 | music163-song-5042963 | Soviet Combat 1 - Triumphal | null | 01:16 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042963 |
-| 14 | music163-song-5042964 | Exploring in New York City | null | 02:03 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042964 |
-| 15 | music163-song-5042965 | Brighton Beach - Building Defenses | null | 01:11 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042965 |
-| 16 | music163-song-5042966 | Brighton Beach - Soviets Coming Asho | null | 00:58 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042966 |
-| 17 | music163-song-5042967 | Allied Combat 2 | null | 01:50 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042967 |
-| 18 | music163-song-5042968 | Allied Combat 2 - Losing | null | 01:20 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042968 |
-| 19 | music163-song-5042969 | Allied Combat 2 - Triumphal | null | 01:45 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042969 |
-| 20 | music163-song-5042970 | Mykonos | null | 00:37 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042970 |
-| 21 | music163-song-5042971 | Exploring in Mykonos | null | 02:00 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042971 |
-| 22 | music163-song-5042972 | Easter Island - Lying in Wait | null | 01:04 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042972 |
-| 23 | music163-song-5042973 | Enter the Shogun Executioner | null | 01:33 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042973 |
-| 24 | music163-song-5042974 | Japan Combat 1 | null | 01:29 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042974 |
-| 25 | music163-song-5042975 | Japan Combat 1 - Losing | null | 01:02 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042975 |
-| 26 | music163-song-5042976 | Japan Combat 1 - Triumphal | null | 01:09 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042976 |
-| 27 | music163-song-5042977 | Mount Fuji Intro | null | 00:32 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042977 |
-| 28 | music163-song-5042978 | Exploring in Mount Fuji | null | 01:52 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042978 |
-| 29 | music163-song-5042979 | Threatened in Mount Fuji | null | 02:34 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042979 |
-| 30 | music163-song-5042980 | Exploring in Tokyo Harbor | null | 02:48 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042980 |
-| 31 | music163-song-5042981 | Threatened in Tokyo Harbor | null | 01:59 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042981 |
-| 32 | music163-song-5042982 | Soviet - Up Yours | null | 01:06 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042982 |
-| 33 | music163-song-5042983 | Allied - Up Yours | null | 01:11 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042983 |
-| 34 | music163-song-5042984 | Japanese - Up Yours | null | 01:00 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042984 |
-| 35 | music163-song-5042985 | Exploring in Havana | null | 02:00 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042985 |
-| 36 | music163-song-5042986 | Threatened in Havana | null | 02:08 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042986 |
-| 37 | music163-song-5042987 | Floating Island Fortress | null | 01:54 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042987 |
-| 38 | music163-song-5042988 | Iceland | null | 00:58 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042988 |
-| 39 | music163-song-5042989 | Exploring in Vladivostok | null | 01:37 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042989 |
-| 40 | music163-song-5042990 | Tanya in Gibraltar | null | 01:02 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042990 |
-| 41 | music163-song-5042991 | Downloading | null | 01:01 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042991 |
-| 42 | music163-song-5042992 | Ra3 Credits | - (游戏《红色警戒3》插曲) | 02:22 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042992 |
-| 43 | music163-song-5042993 | Soviet March - Reprise | null | 01:07 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042993 |
-| 44 | music163-song-5042994 | Hell March 2 Fftl Remix | null | 01:13 | music163-playlist-6743982 | https://music.163.com/#/song?id=5042994 |
+| 1 | music163-song-5042951 | Soviet March | - (游戏《红色警戒3》主题曲：苏维埃进行曲) | 02:44 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042951> |
+| 2 | music163-song-5042952 | Hell March 3 | - (地狱进行曲（3代版）) | 03:29 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042952> |
+| 3 | music163-song-5042953 | Grinder 2 | null | 02:51 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042953> |
+| 4 | music163-song-5042954 | Hell March 1 - From First To Last Remix | null | 03:53 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042954> |
+| 5 | music163-song-5042955 | Russian Celebration | null | 01:00 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042955> |
+| 6 | music163-song-5042956 | The Might of the Empire | null | 00:49 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042956> |
+| 7 | music163-song-5042957 | The Motherland | null | 02:01 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042957> |
+| 8 | music163-song-5042958 | The Red Scare | null | 02:00 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042958> |
+| 9 | music163-song-5042959 | The Calm Before... | null | 01:04 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042959> |
+| 10 | music163-song-5042960 | The European Storm | null | 02:13 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042960> |
+| 11 | music163-song-5042961 | Soviet Combat 1 | null | 01:58 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042961> |
+| 12 | music163-song-5042962 | Soviet Combat 1 - Losing | null | 01:04 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042962> |
+| 13 | music163-song-5042963 | Soviet Combat 1 - Triumphal | null | 01:16 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042963> |
+| 14 | music163-song-5042964 | Exploring in New York City | null | 02:03 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042964> |
+| 15 | music163-song-5042965 | Brighton Beach - Building Defenses | null | 01:11 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042965> |
+| 16 | music163-song-5042966 | Brighton Beach - Soviets Coming Asho | null | 00:58 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042966> |
+| 17 | music163-song-5042967 | Allied Combat 2 | null | 01:50 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042967> |
+| 18 | music163-song-5042968 | Allied Combat 2 - Losing | null | 01:20 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042968> |
+| 19 | music163-song-5042969 | Allied Combat 2 - Triumphal | null | 01:45 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042969> |
+| 20 | music163-song-5042970 | Mykonos | null | 00:37 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042970> |
+| 21 | music163-song-5042971 | Exploring in Mykonos | null | 02:00 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042971> |
+| 22 | music163-song-5042972 | Easter Island - Lying in Wait | null | 01:04 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042972> |
+| 23 | music163-song-5042973 | Enter the Shogun Executioner | null | 01:33 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042973> |
+| 24 | music163-song-5042974 | Japan Combat 1 | null | 01:29 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042974> |
+| 25 | music163-song-5042975 | Japan Combat 1 - Losing | null | 01:02 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042975> |
+| 26 | music163-song-5042976 | Japan Combat 1 - Triumphal | null | 01:09 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042976> |
+| 27 | music163-song-5042977 | Mount Fuji Intro | null | 00:32 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042977> |
+| 28 | music163-song-5042978 | Exploring in Mount Fuji | null | 01:52 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042978> |
+| 29 | music163-song-5042979 | Threatened in Mount Fuji | null | 02:34 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042979> |
+| 30 | music163-song-5042980 | Exploring in Tokyo Harbor | null | 02:48 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042980> |
+| 31 | music163-song-5042981 | Threatened in Tokyo Harbor | null | 01:59 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042981> |
+| 32 | music163-song-5042982 | Soviet - Up Yours | null | 01:06 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042982> |
+| 33 | music163-song-5042983 | Allied - Up Yours | null | 01:11 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042983> |
+| 34 | music163-song-5042984 | Japanese - Up Yours | null | 01:00 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042984> |
+| 35 | music163-song-5042985 | Exploring in Havana | null | 02:00 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042985> |
+| 36 | music163-song-5042986 | Threatened in Havana | null | 02:08 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042986> |
+| 37 | music163-song-5042987 | Floating Island Fortress | null | 01:54 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042987> |
+| 38 | music163-song-5042988 | Iceland | null | 00:58 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042988> |
+| 39 | music163-song-5042989 | Exploring in Vladivostok | null | 01:37 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042989> |
+| 40 | music163-song-5042990 | Tanya in Gibraltar | null | 01:02 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042990> |
+| 41 | music163-song-5042991 | Downloading | null | 01:01 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042991> |
+| 42 | music163-song-5042992 | Ra3 Credits | - (游戏《红色警戒3》插曲) | 02:22 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042992> |
+| 43 | music163-song-5042993 | Soviet March - Reprise | null | 01:07 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042993> |
+| 44 | music163-song-5042994 | Hell March 2 Fftl Remix | null | 01:13 | music163-playlist-6743982 | <https://music.163.com/#/song?id=5042994> |
 
 ## artist-details
 
 | artist-id | artist-name | url |
 | --- | --- | --- |
-| music163-artist-210615 | James Hannigan | https://music.163.com/#/artist?id=210615 |
-| music163-artist-31329017 | The Skywalker Symphony Chorus | https://music.163.com/#/artist?id=31329017 |
-| music163-artist-57880 | Frank Klepacki | https://music.163.com/#/artist?id=57880 |
-| music163-artist-56831 | From First to Last | https://music.163.com/#/artist?id=56831 |
-| music163-artist-210645 | Tim Wynn | https://music.163.com/#/artist?id=210645 |
-| music163-artist-263381 | Mikael Sandgren | https://music.163.com/#/artist?id=263381 |
+| music163-artist-210615 | James Hannigan | <https://music.163.com/#/artist?id=210615> |
+| music163-artist-31329017 | The Skywalker Symphony Chorus | <https://music.163.com/#/artist?id=31329017> |
+| music163-artist-57880 | Frank Klepacki | <https://music.163.com/#/artist?id=57880> |
+| music163-artist-56831 | From First to Last | <https://music.163.com/#/artist?id=56831> |
+| music163-artist-210645 | Tim Wynn | <https://music.163.com/#/artist?id=210645> |
+| music163-artist-263381 | Mikael Sandgren | <https://music.163.com/#/artist?id=263381> |
 
 ## album-details
 
 | album-id | album-name | url |
 | --- | --- | --- |
-| music163-album-500760 | Command & Conquer: Red Alert 3 Premier Edition Music Disc | https://music.163.com/#/album?id=500760 |
+| music163-album-500760 | Command & Conquer: Red Alert 3 Premier Edition Music Disc | <https://music.163.com/#/album?id=500760> |
 
 ## song-artist-mapping
 
