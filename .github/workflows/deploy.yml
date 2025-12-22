@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Rewrite LFS paths for GitHub Pages
         run: |
@@ -31,10 +31,14 @@ jobs:
 
       # 2. Setup and Upload
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # Upload the entire repository (or your build folder like './_site')
           path: '.'
