@@ -1,5 +1,10 @@
 ---
 layout: page
+collection:
+  - "music163-playlist"
+playlist-id: "music163-playlist-6743982"
+playlist-title: "Red Alert 3（红警3原声） - 歌单 - 网易云音乐"
+url: "https://music.163.com/#/playlist?id=music163-playlist-6743982"
 ---
 
 # music163-playlist-6743982

@@ -1,3 +1,4 @@
+const DEBUG = false;
 
 function getTextContentWithoutSoil(element) {
     if (!element) {
@@ -95,77 +96,156 @@ function getAlbumDetails(songDetailsArray) {
 }
 
 function getPlayListData() {
+    const url = window.location.href;
     const mTable = document.querySelectorAll("table.m-table")[0];
+    const songDetailsArray = extractAllSongDetails(mTable);
     const playListData = {
-        id: "music163-playlist-"+window.location.href.split('=')[1],
+        url: url,
+        id: "music163-playlist-"+url.split('=')[1],
         title: document.title,
-        songDetailsArray: extractAllSongDetails(mTable),
-        artistDetailsArray: getArtistDetails(extractAllSongDetails(mTable)),
-        albumDetailsArray: getAlbumDetails(extractAllSongDetails(mTable))
+        songDetailsArray: songDetailsArray,
+        artistDetailsArray: getArtistDetails(songDetailsArray),
+        albumDetailsArray: getAlbumDetails(songDetailsArray)
     }
     return playListData;
 }
 
 function logPlayListData(playListData) {
+    console.log(playListData.url);
     console.log(playListData.id);
     console.table(playListData.songDetailsArray);
     console.table(playListData.artistDetailsArray);
     console.table(playListData.albumDetailsArray);
 }
 
-function getNumberPartInEnd(str) {
+function getNumberPartInTail(str) {
 	return /(\d*)$/.exec(str)?.[1];
 }
 
 function toMarkdownTables(playListData) {
-    let markdownTables = `# ${playListData.id}\n\n`;
-    markdownTables += `## playlist-details\n\n`;
-    markdownTables += `| playlist-id | playlist-title | url |\n`
-    markdownTables += `| --- | --- | --- |\n`;
-    markdownTables += `| ${playListData.id} | ${playListData.title} | [https://music.163.com/#/playlist?id=${playListData.id}](<https://music.163.com/#/playlist?id=${playListData.id}>) |\n`
-    markdownTables += `\n## song-details\n\n`;
-    markdownTables += `| row-id | song-id | song-title | song-subtitle | song-time-length | playlist-id | url |\n`;
-    markdownTables += `| --- | --- | --- | --- | --- | --- | --- |\n`;
+    let markdownTables = "";
+
+    // 1 add frontmatter
+
+    let frontMatter = `---\n`;
+    frontMatter += `collection:\n  - "music163-playlist"\n`;
+    frontMatter += `playlist-id: "${playListData.id}"\n`;
+    frontMatter += `playlist-title: "${playListData.title}"\n`;
+    frontMatter += `url: "https://music.163.com/#/playlist?id=${playListData.id}"\n`;
+    frontMatter += `---\n`;
+
+    markdownTables += frontMatter;
+
+    // 2 add empty-line
+
+    markdownTables += "\n";
+
+    // 3 add section-h1
+
+    // 3.1 add header-line
+
+    markdownTables += `# ${playListData.id}\n`;
+
+    // 3.2 add empty-line
+
+    markdownTables += "\n";
+
+    // 3.3 add playlist-details
+
+    let playlistDetails = `## playlist-details\n`;
+    playlistDetails += "\n";
+    playlistDetails += `| playlist-id | playlist-title | url |\n`
+    playlistDetails += `| --- | --- | --- |\n`;
+    playlistDetails += `| ${playListData.id} | ${playListData.title} | [https://music.163.com/#/playlist?id=${playListData.id}](<https://music.163.com/#/playlist?id=${playListData.id}>) |\n`
+    
+    markdownTables += playlistDetails;
+
+    // 3.4 add empty-line
+
+    markdownTables += "\n";
+    
+    // 3.5 add song-details
+
+    let songDetails = `## song-details\n`;
+    songDetails += "\n";
+    songDetails += `| row-id | song-id | song-title | song-subtitle | song-time-length | playlist-id | url |\n`;
+    songDetails += `| --- | --- | --- | --- | --- | --- | --- |\n`;
     playListData.songDetailsArray.forEach((songDetails, index) => {
-        markdownTables += `| ${index + 1} | ${songDetails.songID} | ${songDetails.songTitle} | ${songDetails.songSubTitle} | ${songDetails.songTimeLength} | ${playListData.id} | [https://music.163.com/#/song?id=${getNumberPartInEnd(songDetails.songID)}](<https://music.163.com/#/song?id=${getNumberPartInEnd(songDetails.songID)}>) |\n`;
+        songDetails += `| ${index + 1} | ${songDetails.songID} | ${songDetails.songTitle} | ${songDetails.songSubTitle} | ${songDetails.songTimeLength} | ${playListData.id} | [https://music.163.com/#/song?id=${getNumberPartInTail(songDetails.songID)}](<https://music.163.com/#/song?id=${getNumberPartInTail(songDetails.songID)}>) |\n`;
     });
 
-    markdownTables += `\n## artist-details\n\n`;
-    markdownTables += `| artist-id | artist-name | url |\n`;
-    markdownTables += `| --- | --- | --- |\n`;
+    markdownTables += songDetails;
+
+    // 3.6 add empty-line
+
+    markdownTables += "\n";
+    
+    // 3.7 add artist-details
+
+    let artistDetails = `## artist-details\n\n`;
+    artistDetails += `| artist-id | artist-name | url |\n`;
+    artistDetails += `| --- | --- | --- |\n`;
     playListData.artistDetailsArray.forEach(artistDetails => {
-        markdownTables += `| ${artistDetails.artistID} | ${artistDetails.artistName} | [https://music.163.com/#/artist?id=${getNumberPartInEnd(artistDetails.artistID)}](<https://music.163.com/#/artist?id=${getNumberPartInEnd(artistDetails.artistID)}>) |\n`;
+        artistDetails += `| ${artistDetails.artistID} | ${artistDetails.artistName} | [https://music.163.com/#/artist?id=${getNumberPartInTail(artistDetails.artistID)}](<https://music.163.com/#/artist?id=${getNumberPartInTail(artistDetails.artistID)}>) |\n`;
     });
 
-    markdownTables += `\n## album-details\n\n`;
-    markdownTables += `| album-id | album-name | url |\n`;
-    markdownTables += `| --- | --- | --- |\n`;
+    markdownTables += artistDetails;
+    
+    // 3.8 add empty-line
+
+    markdownTables += "\n";
+    
+    // 3.9 add album-details
+
+    let albumDetails = `## album-details\n\n`;
+    albumDetails += `| album-id | album-name | url |\n`;
+    albumDetails += `| --- | --- | --- |\n`;
     playListData.albumDetailsArray.forEach(albumDetails => {
-        markdownTables += `| ${albumDetails.albumID} | ${albumDetails.albumName} | [https://music.163.com/#/album?id=${getNumberPartInEnd(albumDetails.albumID)}](<https://music.163.com/#/album?id=${getNumberPartInEnd(albumDetails.albumID)}>) |\n`;
+        albumDetails += `| ${albumDetails.albumID} | ${albumDetails.albumName} | [https://music.163.com/#/album?id=${getNumberPartInTail(albumDetails.albumID)}](<https://music.163.com/#/album?id=${getNumberPartInTail(albumDetails.albumID)}>) |\n`;
     });
 
-    markdownTables += `\n## song-artist-mapping\n\n`;
-    markdownTables += `| song-id | artist-id | song-title | artist-name |\n`;
-    markdownTables += `| --- | --- | --- | --- |\n`;
+    markdownTables += albumDetails;
+    
+    // 3.10 add empty-line
+
+    markdownTables += "\n";
+    
+    // 3.11 add song-artist-mapping
+
+    let songArtistMapping = `## song-artist-mapping\n\n`;
+    songArtistMapping += `| song-id | artist-id | song-title | artist-name |\n`;
+    songArtistMapping += `| --- | --- | --- | --- |\n`;
     playListData.songDetailsArray.flatMap(songDetails => {
         songDetails.songRelatedArtistRecords.forEach(artistRecord => {
-            markdownTables += `| ${songDetails.songID} | ${artistRecord.artistID} | ${songDetails.songTitle} | ${artistRecord.artistName} |\n`;
+            songArtistMapping += `| ${songDetails.songID} | ${artistRecord.artistID} | ${songDetails.songTitle} | ${artistRecord.artistName} |\n`;
         });
     });
 
-    markdownTables += `\n## song-album-mapping\n\n`;
-    markdownTables += `| song-id | album-id | song-title | album-name |\n`;
-    markdownTables += `| --- | --- | --- | --- |\n`;
+    markdownTables += songArtistMapping;
+    
+    // 3.12 add empty-line
+
+    markdownTables += "\n";
+    
+    // 3.13 add song-album-mapping
+
+    let songAlbumMapping = `\n## song-album-mapping\n\n`;
+    songAlbumMapping += `| song-id | album-id | song-title | album-name |\n`;
+    songAlbumMapping += `| --- | --- | --- | --- |\n`;
     playListData.songDetailsArray.forEach(songDetails => {
-        markdownTables += `| ${songDetails.songID} | ${songDetails.songRelatedAlbumRecord.albumID} | ${songDetails.songTitle} | ${songDetails.songRelatedAlbumRecord.albumName} |\n`;
+        songAlbumMapping += `| ${songDetails.songID} | ${songDetails.songRelatedAlbumRecord.albumID} | ${songDetails.songTitle} | ${songDetails.songRelatedAlbumRecord.albumName} |\n`;
     });
+
+    markdownTables += songAlbumMapping;
 
     return markdownTables;
 }
 
 function main() {
     const playListData = getPlayListData();
-    logPlayListData(playListData);
+    if (DEBUG) {
+        logPlayListData(playListData);
+    }
     const markdownTables = toMarkdownTables(playListData);
     console.log(markdownTables);
 }
