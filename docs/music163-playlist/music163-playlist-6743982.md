@@ -9,7 +9,7 @@ url: "https://music.163.com/#/playlist?id=music163-playlist-6743982"
 
 # music163-playlist-6743982
 
-<img data-src-replace src="../../assets/music163-playlist-6743982.png" width=200>
+<img data-src-replace src="../../assets/music163-playlist-6743982 - cover.png" width=200>
 
 ## playlist-details
 
