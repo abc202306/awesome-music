@@ -11,6 +11,8 @@ url: "https://music.163.com/#/playlist?id=music163-playlist-6743982"
 
 <img data-src-replace src="../../assets/music163-playlist-6743982 - cover.png" width=200>
 
+> see-also: [music163-playlist-6743982-song-note.md](../music163-playlist-song-note/music163-playlist-6743982-song-note)
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 - [artist-details](#artist-details)
