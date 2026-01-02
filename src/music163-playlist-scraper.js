@@ -162,7 +162,7 @@ function toMarkdownTables(playListData) {
     playlistDetails += "\n";
     playlistDetails += `| playlist-id | playlist-title | url |\n`
     playlistDetails += `| --- | --- | --- |\n`;
-    playlistDetails += `| ${playListData.id} | ${playListData.title} | [https://music.163.com/#/playlist?id=${playListData.id}](<https://music.163.com/#/playlist?id=${playListData.id}>) |\n`
+    playlistDetails += `| ${playListData.id} | ${playListData.title} | [https://music.163.com/#/playlist?id=${getNumberPartInTail(playListData.id)}](<https://music.163.com/#/playlist?id=${getNumberPartInTail(playListData.id)}>) |\n`
     
     markdownTables += playlistDetails;
 
