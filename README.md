@@ -7,6 +7,10 @@ permalink: /
 
 preview: <https://github.com/abc202306/awesome-music>
 
+- [playlist](#playlist)
+- [script](#script)
+
+
 ## playlist
 
 | Image | Name | Details Note | Song Note |

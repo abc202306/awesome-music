@@ -4,6 +4,28 @@ layout: page
 
 # music163-playlist
 
+- [Soviet March](#soviet-march)
+  - [\[\[Soviet March.mp3\]\] | https://music.163.com/#/song?id=5042951](#sovietmarchmp3--httpsmusic163comsongid5042951)
+  - [\[\[Soviet March - Reprise.mp3\]\] | https://music.163.com/#/song?id=5042993](#soviet-march---reprisemp3--httpsmusic163comsongid5042993)
+- [Hell March](#hell-march)
+  - [\[\[Hell March 1 - From First To Last Remix.mp3\]\] | https://music.163.com/#/song?id=5042954](#hell-march-1---from-first-to-last-remixmp3--httpsmusic163comsongid5042954)
+  - [\[\[Hell March 2 Fftl Remix.mp3\]\] | https://music.163.com/#/song?id=5042994](#hell-march-2-fftl-remixmp3--httpsmusic163comsongid5042994)
+  - [\[\[Hell March 3.mp3\]\] | https://music.163.com/#/song?id=5042952](#hell-march-3mp3--httpsmusic163comsongid5042952)
+- [Soviet Combat](#soviet-combat)
+  - [\[\[Soviet Combat 1.mp3\]\] | https://music.163.com/#/song?id=5042961](#soviet-combat-1mp3--httpsmusic163comsongid5042961)
+  - [\[\[Soviet Combat 1 - Losing.mp3\]\] | https://music.163.com/#/song?id=5042962](#soviet-combat-1---losingmp3--httpsmusic163comsongid5042962)
+  - [\[\[Soviet Combat 1 - Triumphal.mp3\]\] | https://music.163.com/#/song?id=5042963](#soviet-combat-1---triumphalmp3--httpsmusic163comsongid5042963)
+- [Allied](#allied)
+  - [\[\[Allied Combat 2.mp3\]\] | https://music.163.com/#/song?id=5042967](#allied-combat-2mp3--httpsmusic163comsongid5042967)
+  - [\[\[Allied Combat 2 - Losing.mp3\]\] | https://music.163.com/#/song?id=5042968](#allied-combat-2---losingmp3--httpsmusic163comsongid5042968)
+  - [\[\[Allied Combat 2 - Triumphal.mp3\]\] | https://music.163.com/#/song?id=5042969](#allied-combat-2---triumphalmp3--httpsmusic163comsongid5042969)
+- [Japan](#japan)
+  - [\[\[Japan Combat 1.mp3\]\] | https://music.163.com/#/song?id=5042974](#japan-combat-1mp3--httpsmusic163comsongid5042974)
+  - [\[\[Japan Combat 1 - Losing.mp3\]\] | https://music.163.com/#/song?id=5042975v](#japan-combat-1---losingmp3--httpsmusic163comsongid5042975v)
+  - [\[\[Japan Combat 1 - Triumphal.mp3\]\] | https://music.163.com/#/song?id=5042976](#japan-combat-1---triumphalmp3--httpsmusic163comsongid5042976)
+- [All](#all)
+
+
 ## Soviet March
 
 ### [[Soviet March.mp3]] | <https://music.163.com/#/song?id=5042951>

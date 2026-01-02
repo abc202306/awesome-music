@@ -11,6 +11,13 @@ url: "https://music.163.com/#/playlist?id=music163-playlist-6743982"
 
 <img data-src-replace src="../../assets/music163-playlist-6743982 - cover.png" width=200>
 
+- [playlist-details](#playlist-details)
+- [song-details](#song-details)
+- [artist-details](#artist-details)
+- [album-details](#album-details)
+- [song-artist-mapping](#song-artist-mapping)
+- [song-album-mapping](#song-album-mapping)
+
 ## playlist-details
 
 | playlist-id | playlist-title | url |
