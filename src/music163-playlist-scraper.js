@@ -146,6 +146,12 @@ function toMarkdownTables(playListData) {
 
     markdownTables += `# ${playListData.id}\n`;
 
+    // additional content
+
+    markdownTables += "\n";
+
+    markdownTables += "> see-also: [${playListData.id}-song-note.md](../music163-playlist-song-note/${playListData.id}-song-note), [README.md](../../README)\n";
+
     // 3.2 add empty-line
 
     markdownTables += "\n";
