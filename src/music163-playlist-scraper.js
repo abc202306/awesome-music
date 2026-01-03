@@ -57,7 +57,7 @@ function extractAllSongDetails(table) {
     return songDetailsArray;
 }
 
-function getArtistDetails(songDetailsArray) {
+function getArtistDetailsArray(songDetailsArray) {
     const artistDetailsArray = [];
     songDetailsArray.forEach(songDetails => {
         songDetails.songRelatedArtistRecords.forEach(artistRecord => {
@@ -77,7 +77,7 @@ function getArtistDetails(songDetailsArray) {
     return artistDetailsArray;
 }
 
-function getAlbumDetails(songDetailsArray) {
+function getAlbumDetailsArray(songDetailsArray) {
     const albumDetailsArray = [];
     songDetailsArray.forEach(songDetails => {
         let albumDetails = albumDetailsArray.find(album => album.albumID === songDetails.songRelatedAlbumRecord.albumID);
@@ -104,8 +104,8 @@ function getPlayListData() {
         id: "music163-playlist-"+url.split('=')[1],
         title: document.title,
         songDetailsArray: songDetailsArray,
-        artistDetailsArray: getArtistDetails(songDetailsArray),
-        albumDetailsArray: getAlbumDetails(songDetailsArray)
+        artistDetailsArray: getArtistDetailsArray(songDetailsArray),
+        albumDetailsArray: getAlbumDetailsArray(songDetailsArray)
     }
     return playListData;
 }
@@ -122,16 +122,41 @@ function getNumberPartInTail(str) {
 	return /(\d*)$/.exec(str)?.[1];
 }
 
+function getSongUrl(songID) {
+    return `https://music.163.com/#/song?id=${getNumberPartInTail(songID)}`;
+}
+
+function getArtistUrl(artistID) {
+    return `https://music.163.com/#/artist?id=${getNumberPartInTail(artistID)}`;
+}
+
+function getAlbumUrl(albumID) {
+    return `https://music.163.com/#/album?id=${getNumberPartInTail(albumID)}`;
+}
+
+function getArtistUrlFromDetailItem(artistDetails) {
+    return `[${artistDetails.artistName}](<${getArtistUrl(artistDetails.artistID)}>)`
+}
+
+function getAlbumUrlFromDetailItem(albumDetails) {
+    return `[${albumDetails.albumName}](<${getAlbumUrl(albumDetails.albumID)}>)`
+}
+
 function toMarkdownTables(playListData) {
     let markdownTables = "";
 
     // 1 add frontmatter
 
+    const playlisturl = `https://music.163.com/#/playlist?id=${getNumberPartInTail(playListData.id)}`;
+    const playlisttitle = playListData.title;
+    const playlisturlwithname = `[${playlisttitle}](<${playlisturl}>)`;
+
     let frontMatter = `---\n`;
+    frontMatter += `layout: page\n`
     frontMatter += `collection:\n  - "music163-playlist"\n`;
-    frontMatter += `playlist-id: "${playListData.id}"\n`;
-    frontMatter += `playlist-title: "${playListData.title}"\n`;
-    frontMatter += `url: "https://music.163.com/#/playlist?id=${playListData.id}"\n`;
+    frontMatter += `playlist-id: "${playListData.id}"\n`
+    frontMatter += `playlist-title: "${playlisttitle}"\n`;
+    frontMatter += `url: "${playlisturl}"\n`;
     frontMatter += `---\n`;
 
     markdownTables += frontMatter;
@@ -150,11 +175,29 @@ function toMarkdownTables(playListData) {
 
     markdownTables += "\n";
 
-    markdownTables += "> see-also: [${playListData.id}-song-note.md](../music163-playlist-song-note/${playListData.id}-song-note), [README.md](../../README)\n";
+    markdownTables += `<img src="../../assets/${playListData.id} - cover.png" width=200>\n`;
+
+    markdownTables += "\n";
+
+    markdownTables += playlisturlwithname+"\n";
+
+    markdownTables += "\n";
+
+    markdownTables += `> see-also: [${playListData.id}-song-note.md](../music163-playlist-song-note/${playListData.id}-song-note), [README.md](../../)\n`;
 
     // 3.2 add empty-line
 
     markdownTables += "\n";
+
+    // attitional table of contents;
+    markdownTables += `- [playlist-details](#playlist-details)
+- [song-details](#song-details)
+- [artist-details](#artist-details)
+- [album-details](#album-details)
+- [song-artist-mapping](#song-artist-mapping)
+- [song-album-mapping](#song-album-mapping)
+
+`
 
     // 3.3 add playlist-details
 
@@ -162,7 +205,7 @@ function toMarkdownTables(playListData) {
     playlistDetails += "\n";
     playlistDetails += `| playlist-id | playlist-title | url |\n`
     playlistDetails += `| --- | --- | --- |\n`;
-    playlistDetails += `| ${playListData.id} | ${playListData.title} | [https://music.163.com/#/playlist?id=${getNumberPartInTail(playListData.id)}](<https://music.163.com/#/playlist?id=${getNumberPartInTail(playListData.id)}>) |\n`
+    playlistDetails += `| ${playListData.id} | ${playListData.title} | [${playlisturl}](<${playlisturl}>) |\n`
     
     markdownTables += playlistDetails;
 
@@ -172,15 +215,15 @@ function toMarkdownTables(playListData) {
     
     // 3.5 add song-details
 
-    let songDetails = `## song-details\n`;
-    songDetails += "\n";
-    songDetails += `| row-id | song-id | song-title | song-subtitle | song-time-length | playlist-id | url |\n`;
-    songDetails += `| --- | --- | --- | --- | --- | --- | --- |\n`;
+    let songDetailsStr = `## song-details\n`;
+    songDetailsStr += "\n";
+    songDetailsStr += `| row-id | song-id | song-title | song-subtitle | song-time-length | playlist-id | url | song-artists | song-albums |\n`;
+    songDetailsStr += `| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n`;
     playListData.songDetailsArray.forEach((songDetails, index) => {
-        songDetails += `| ${index + 1} | ${songDetails.songID} | ${songDetails.songTitle} | ${songDetails.songSubTitle} | ${songDetails.songTimeLength} | ${playListData.id} | [https://music.163.com/#/song?id=${getNumberPartInTail(songDetails.songID)}](<https://music.163.com/#/song?id=${getNumberPartInTail(songDetails.songID)}>) |\n`;
+        songDetailsStr += `| ${index + 1} | ${songDetails.songID} | ${songDetails.songTitle} | ${songDetails.songSubTitle} | ${songDetails.songTimeLength} | ${playlisturlwithname} | [${getSongUrl(songDetails.songID)}](<${getSongUrl(songDetails.songID)}>) | ${songDetails.songRelatedArtistRecords.map(d=>getArtistUrlFromDetailItem(d)).join(", ")} | ${getAlbumUrlFromDetailItem(songDetails.songRelatedAlbumRecord)} |\n`;
     });
 
-    markdownTables += songDetails;
+    markdownTables += songDetailsStr;
 
     // 3.6 add empty-line
 
@@ -188,14 +231,14 @@ function toMarkdownTables(playListData) {
     
     // 3.7 add artist-details
 
-    let artistDetails = `## artist-details\n\n`;
-    artistDetails += `| artist-id | artist-name | url |\n`;
-    artistDetails += `| --- | --- | --- |\n`;
+    let artistDetailsStr = `## artist-details\n\n`;
+    artistDetailsStr += `| artist-id | artist-name | url |\n`;
+    artistDetailsStr += `| --- | --- | --- |\n`;
     playListData.artistDetailsArray.forEach(artistDetails => {
-        artistDetails += `| ${artistDetails.artistID} | ${artistDetails.artistName} | [https://music.163.com/#/artist?id=${getNumberPartInTail(artistDetails.artistID)}](<https://music.163.com/#/artist?id=${getNumberPartInTail(artistDetails.artistID)}>) |\n`;
+        artistDetailsStr += `| ${artistDetails.artistID} | ${artistDetails.artistName} | [${getArtistUrl(artistDetails.artistID)}](<${getArtistUrl(artistDetails.artistID)}>) |\n`;
     });
 
-    markdownTables += artistDetails;
+    markdownTables += artistDetailsStr;
     
     // 3.8 add empty-line
 
@@ -203,14 +246,14 @@ function toMarkdownTables(playListData) {
     
     // 3.9 add album-details
 
-    let albumDetails = `## album-details\n\n`;
-    albumDetails += `| album-id | album-name | url |\n`;
-    albumDetails += `| --- | --- | --- |\n`;
+    let albumDetailsStr = `## album-details\n\n`;
+    albumDetailsStr += `| album-id | album-name | url |\n`;
+    albumDetailsStr += `| --- | --- | --- |\n`;
     playListData.albumDetailsArray.forEach(albumDetails => {
-        albumDetails += `| ${albumDetails.albumID} | ${albumDetails.albumName} | [https://music.163.com/#/album?id=${getNumberPartInTail(albumDetails.albumID)}](<https://music.163.com/#/album?id=${getNumberPartInTail(albumDetails.albumID)}>) |\n`;
+        albumDetailsStr += `| ${albumDetails.albumID} | ${albumDetails.albumName} | [${getAlbumUrl(albumDetails.albumID)}](<${getAlbumUrl(albumDetails.albumID)}>) |\n`;
     });
 
-    markdownTables += albumDetails;
+    markdownTables += albumDetailsStr;
     
     // 3.10 add empty-line
 
@@ -235,7 +278,7 @@ function toMarkdownTables(playListData) {
     
     // 3.13 add song-album-mapping
 
-    let songAlbumMapping = `\n## song-album-mapping\n\n`;
+    let songAlbumMapping = `## song-album-mapping\n\n`;
     songAlbumMapping += `| song-id | album-id | song-title | album-name |\n`;
     songAlbumMapping += `| --- | --- | --- | --- |\n`;
     playListData.songDetailsArray.forEach(songDetails => {
