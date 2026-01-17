@@ -183,7 +183,7 @@ function toMarkdownTables(playListData) {
 
     markdownTables += "\n";
 
-    markdownTables += `> see-also: [${playListData.id}-song-note.md](../music163-playlist-song-note/${playListData.id}-song-note), [README.md](../../README.md)\n`;
+    markdownTables += `> see-also: [${playListData.id}-song-note.md](../music163-playlist-song-note/${playListData.id}-song-note), [Home](../../)\n`;
 
     // 3.2 add empty-line
 
