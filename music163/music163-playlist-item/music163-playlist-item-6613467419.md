@@ -18,7 +18,7 @@ cover: "[[music163-playlist-cover-6613467419.jpg]]"
 
 [《進撃的巨人》神曲系列 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=6613467419>)
 
-> see-also: [music163-playlist-song-note-6613467419.md](../music163-playlist-song-note/music163-playlist-song-note-6613467419.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-6613467419](../music163-playlist-song-note/music163-playlist-song-note-6613467419.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

@@ -19,7 +19,7 @@ cover: "[[music163-playlist-cover-156530547.jpg]]"
 
 [死亡的筆記 OP-ED-OST - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=156530547>)
 
-> see-also: [music163-playlist-song-note-156530547.md](../music163-playlist-song-note/music163-playlist-song-note-156530547.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-156530547](../music163-playlist-song-note/music163-playlist-song-note-156530547.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

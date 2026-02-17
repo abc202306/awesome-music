@@ -19,7 +19,7 @@ cover: "[[music163-playlist-cover-2110349418.jpg]]"
 
 [理科生学习歌单〖析万物之理 判天地之美〗 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=2110349418>)
 
-> see-also: [music163-playlist-song-note-2110349418.md](../music163-playlist-song-note/music163-playlist-song-note-2110349418.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-2110349418](../music163-playlist-song-note/music163-playlist-song-note-2110349418.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

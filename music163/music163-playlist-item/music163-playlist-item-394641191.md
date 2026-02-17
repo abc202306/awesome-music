@@ -18,7 +18,7 @@ cover: "[[music163-playlist-cover-394641191.jpg]]"
 
 [传说之下UNDERTALE音乐全收录（持续更新） - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=394641191>)
 
-> see-also: [music163-playlist-song-note-394641191.md](../music163-playlist-song-note/music163-playlist-song-note-394641191.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-394641191](../music163-playlist-song-note/music163-playlist-song-note-394641191.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

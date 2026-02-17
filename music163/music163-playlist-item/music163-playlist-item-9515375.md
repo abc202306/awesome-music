@@ -19,7 +19,7 @@ cover: "[[music163-playlist-cover-9515375.jpg]]"
 
 [「JOJO的奇妙冒险」OP ED 处刑曲 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=9515375>)
 
-> see-also: [music163-playlist-song-note-9515375.md](../music163-playlist-song-note/music163-playlist-song-note-9515375.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-9515375](../music163-playlist-song-note/music163-playlist-song-note-9515375.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

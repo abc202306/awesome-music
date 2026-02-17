@@ -17,7 +17,7 @@ cover: "[[music163-playlist-cover-509808425.jpg]]"
 
 [日系RPGmaker制作游戏ost - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=509808425>)
 
-> see-also: [music163-playlist-song-note-509808425.md](../music163-playlist-song-note/music163-playlist-song-note-509808425.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-509808425](../music163-playlist-song-note/music163-playlist-song-note-509808425.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

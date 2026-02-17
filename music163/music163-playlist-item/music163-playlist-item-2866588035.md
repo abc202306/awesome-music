@@ -20,7 +20,7 @@ cover: "[[music163-playlist-cover-2866588035.jpg]]"
 
 [『ACG/高萌』萌系番佳作推荐 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=2866588035>)
 
-> see-also: [music163-playlist-song-note-2866588035.md](../music163-playlist-song-note/music163-playlist-song-note-2866588035.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-2866588035](../music163-playlist-song-note/music163-playlist-song-note-2866588035.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

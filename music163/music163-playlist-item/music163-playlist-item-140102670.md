@@ -20,7 +20,7 @@ cover: "[[music163-playlist-cover-140102670.jpg]]"
 
 [火影忍者OP ED顺序排列 1--终章 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=140102670>)
 
-> see-also: [music163-playlist-song-note-140102670.md](../music163-playlist-song-note/music163-playlist-song-note-140102670.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-140102670](../music163-playlist-song-note/music163-playlist-song-note-140102670.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

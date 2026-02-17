@@ -17,7 +17,7 @@ cover: "[[music163-playlist-cover-2975953935.jpg]]"
 
 [Chubbyemu御用BGM - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=2975953935>)
 
-> see-also: [music163-playlist-song-note-2975953935.md](../music163-playlist-song-note/music163-playlist-song-note-2975953935.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-2975953935](../music163-playlist-song-note/music163-playlist-song-note-2975953935.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

@@ -18,7 +18,7 @@ cover: "[[music163-playlist-cover-4869813511.jpg]]"
 
 [瘟疫公司官方游戏音乐 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=4869813511>)
 
-> see-also: [music163-playlist-song-note-4869813511.md](../music163-playlist-song-note/music163-playlist-song-note-4869813511.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-4869813511](../music163-playlist-song-note/music163-playlist-song-note-4869813511.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

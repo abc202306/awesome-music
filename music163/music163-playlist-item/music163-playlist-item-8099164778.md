@@ -20,7 +20,7 @@ cover: "[[music163-playlist-cover-8099164778.jpg]]"
 
 [暗影格斗2（按剧情顺序） - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=8099164778>)
 
-> see-also: [music163-playlist-song-note-8099164778.md](../music163-playlist-song-note/music163-playlist-song-note-8099164778.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-8099164778](../music163-playlist-song-note/music163-playlist-song-note-8099164778.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

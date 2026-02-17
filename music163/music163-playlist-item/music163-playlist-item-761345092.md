@@ -20,7 +20,7 @@ cover: "[[music163-playlist-cover-761345092.jpg]]"
 
 [世界经典古典音乐100首 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=761345092>)
 
-> see-also: [music163-playlist-song-note-761345092.md](../music163-playlist-song-note/music163-playlist-song-note-761345092.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-761345092](../music163-playlist-song-note/music163-playlist-song-note-761345092.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)

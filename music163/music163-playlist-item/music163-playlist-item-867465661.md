@@ -20,7 +20,7 @@ cover: "[[music163-playlist-cover-867465661.jpg]]"
 
 [我的世界背景音乐（含唱片） - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=867465661>)
 
-> see-also: [music163-playlist-song-note-867465661.md](../music163-playlist-song-note/music163-playlist-song-note-867465661.md), [Home](../../index.md)
+> see-also: [music163-playlist-song-note-867465661](../music163-playlist-song-note/music163-playlist-song-note-867465661.md), [Home](../../index.md)
 
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
