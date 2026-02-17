@@ -40,7 +40,7 @@ jobs:
       - name: Replace link from markdown file to html file for GitHub Pages 01
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|\(([^\)]*)\.md"|\(\1"|g'
+          's|\(([^\)]*)\.md|\(\1|g'
       - name: Replace link from markdown file to html file for GitHub Pages 02
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
