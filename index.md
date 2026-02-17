@@ -1,7 +1,10 @@
+---
+layout: home
+---
 
 # music
 
-preview: <https://github.com/abc202306/awesome-music>
+preview: <https://abc202306.github.io/awesome-music>
 
 - [playlist](#playlist)
 - [script](#script)
@@ -10,7 +13,7 @@ preview: <https://github.com/abc202306/awesome-music>
 
 | Image | Name | Details/Song Note |
 | --- | --- | --- |
-| <img src="assets/music163-playlist-cover-6743982.jpg" width=200> | Red Alert 3（红警3原声） - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-6743982)<br>[song-note](music163/music163-playlist-song-note/music163-playlist-song-note-6743982) |
+| <img src="assets/music163-playlist-cover-6743982.jpg" width=200> | Red Alert 3（红警3原声） - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-6743982.md)<br>[song-note](music163/music163-playlist-song-note/music163-playlist-song-note-6743982.md) |
 | <img src="assets/music163-playlist-cover-761345092.jpg" width=200> | 世界经典古典音乐100首 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-761345092.md) |
 | <img src="assets/music163-playlist-cover-509808425.jpg" width=200> | 日系RPGmaker制作游戏ost - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-509808425.md) |
 | <img src="assets/music163-playlist-cover-2975953935.jpg" width=200> | Chubbyemu御用BGM - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2975953935.md) |
