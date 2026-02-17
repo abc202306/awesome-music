@@ -21,6 +21,11 @@ cover: "[[music163-playlist-cover-156530547.jpg]]"
 
 > see-also: [music163-playlist-song-note-156530547](../music163-playlist-song-note/music163-playlist-song-note-156530547.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 《死亡笔记》（Death Note）是大场鸫原作，小畑健作画的漫画。  <br>二人在2003年8月于集英社杂志《周刊少年Jump》36号上以短篇形式刊载《死亡笔记》的原型故事，获得读者投票第一位，并于2003年12月至2006年5月刊登连载版，共108话，内容与短篇有所不同。漫画连载版亦改编成电视动画、电影、轻小说、电视剧等。 |
+| tags | #日语, #影视原声 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

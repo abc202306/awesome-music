@@ -23,6 +23,11 @@ cover: "[[music163-playlist-cover-56124471.jpg]]"
 
 > see-also: [music163-playlist-song-note-56124471](../music163-playlist-song-note/music163-playlist-song-note-56124471.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | “Daydream café”——《请问您今天要来点兔子吗？》——ご注文はココアですか? |
+| tags | #影视, #原声, #ACG, #治愈 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

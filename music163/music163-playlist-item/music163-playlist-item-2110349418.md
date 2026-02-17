@@ -21,6 +21,11 @@ cover: "[[music163-playlist-cover-2110349418.jpg]]"
 
 > see-also: [music163-playlist-song-note-2110349418](../music163-playlist-song-note/music163-playlist-song-note-2110349418.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 建议听熟了歌再边听边学习  <br>在熟悉、舒适的环境下学习效率才高  <br>否则只是浪费时间和精力  <br>  <br>效果因人而异  <br>如果觉得注意力反而下降了，请不要边听边学习  <br>  <br>学习时建议听拨弦类乐曲  <br>希望喜欢  <br>  <br>封面：GTGRAPHICS.DE |
+| tags | #学习, #安静 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

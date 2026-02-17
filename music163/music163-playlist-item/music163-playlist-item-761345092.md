@@ -22,6 +22,11 @@ cover: "[[music163-playlist-cover-761345092.jpg]]"
 
 > see-also: [music163-playlist-song-note-761345092](../music163-playlist-song-note/music163-playlist-song-note-761345092.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 也许直到听烂这100首你也没出现。 |
+| tags | #古典, #世界音乐, #经典 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

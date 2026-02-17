@@ -22,6 +22,11 @@ cover: "[[music163-playlist-cover-867465661.jpg]]"
 
 > see-also: [music163-playlist-song-note-867465661](../music163-playlist-song-note/music163-playlist-song-note-867465661.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 我的世界背景音乐（含唱片）  <br>希望能唤起你的一些回忆  <br>如果没能及时更新记得戳我～ |
+| tags | #游戏, #经典, #放松 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

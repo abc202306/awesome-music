@@ -20,6 +20,11 @@ cover: "[[music163-playlist-cover-24833754.jpg]]"
 
 > see-also: [music163-playlist-song-note-24833754](../music163-playlist-song-note/music163-playlist-song-note-24833754.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 东方红魔乡原曲（按照游戏顺序）。本人基本上每一曲都喜欢。初心者建议05.06.07.13 .虽然本人最喜欢UN就是了。 |
+| tags | #游戏 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

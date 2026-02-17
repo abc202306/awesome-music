@@ -19,6 +19,11 @@ cover: "[[music163-playlist-cover-2975953935.jpg]]"
 
 > see-also: [music163-playlist-song-note-2975953935](../music163-playlist-song-note/music163-playlist-song-note-2975953935.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | Chubby Emu |
+| tags |  |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

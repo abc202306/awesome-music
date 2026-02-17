@@ -22,6 +22,11 @@ cover: "[[music163-playlist-cover-140102670.jpg]]"
 
 > see-also: [music163-playlist-song-note-140102670](../music163-playlist-song-note/music163-playlist-song-note-140102670.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 从一首到另一首,每一曲都能唤起深藏的回忆。 |
+| tags | #影视原声, #80后, #90后 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

@@ -20,6 +20,11 @@ cover: "[[music163-playlist-cover-6613467419.jpg]]"
 
 > see-also: [music163-playlist-song-note-6613467419](../music163-playlist-song-note/music163-playlist-song-note-6613467419.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 2023年11月4日，完结撒花，感谢一路的陪伴，官方音源基本都回来了，但是需要VIP，欢迎大家补充 |
+| tags | #影视原声 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

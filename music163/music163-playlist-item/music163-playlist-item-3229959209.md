@@ -19,6 +19,11 @@ cover: "[[music163-playlist-cover-3229959209.jpg]]"
 
 > see-also: [music163-playlist-song-note-3229959209](../music163-playlist-song-note/music163-playlist-song-note-3229959209.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 同居恋人洛丽塔的bgm |
+| tags |  |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

@@ -22,6 +22,11 @@ cover: "[[music163-playlist-cover-8099164778.jpg]]"
 
 > see-also: [music163-playlist-song-note-8099164778](../music163-playlist-song-note/music163-playlist-song-note-8099164778.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 这是按剧情顺序 含石林、地狱与旧伤bgm  <br>原声大碟 |
+| tags | #怀旧, #游戏, #经典 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

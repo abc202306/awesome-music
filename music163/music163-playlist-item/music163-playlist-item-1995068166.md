@@ -22,6 +22,11 @@ cover: "[[music163-playlist-cover-1995068166.jpg]]"
 
 > see-also: [music163-playlist-song-note-1995068166](../music163-playlist-song-note/music163-playlist-song-note-1995068166.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 男人，就该不断去超越自己的极限，不断去挑战  <br>(此歌单，前面的主要是龙珠Z中的经典BGM，后面少部分有龙珠超，GT，七龙珠中的BGM) |
+| tags | #感动, #治愈, #ACG |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

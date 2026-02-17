@@ -20,6 +20,11 @@ cover: "[[music163-playlist-6743982.png]]"
 
 > see-also: [music163-playlist-song-note-6743982](../music163-playlist-song-note/music163-playlist-song-note-6743982.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 游戏——红警3原声，激扬的Hell march是其中最常被引用的BGM，里面德语喊的是Die Waffen – legt an”，听起来有点像中文“1—2—3—立定—” |
+| tags | #影视原声 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

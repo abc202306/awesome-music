@@ -20,6 +20,11 @@ cover: "[[music163-playlist-cover-394641191.jpg]]"
 
 > see-also: [music163-playlist-song-note-394641191](../music163-playlist-song-note/music163-playlist-song-note-394641191.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | 上方游戏原声，101首之后是Remix之类的改编版本  <br>总之无论是在剧情还是在音乐都很赞的一款游戏，值得推荐  <br>持续更新中 |
+| tags | #游戏, #ACG, #电子 |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

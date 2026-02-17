@@ -21,6 +21,11 @@ cover: "[[music163-playlist-cover-9515375.jpg]]"
 
 > see-also: [music163-playlist-song-note-9515375](../music163-playlist-song-note/music163-playlist-song-note-9515375.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description | その血の運命～JO～JO！ |
+| tags | #日语, #ACG |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 

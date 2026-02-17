@@ -19,6 +19,11 @@ cover: "[[music163-playlist-cover-2233508569.jpg]]"
 
 > see-also: [music163-playlist-song-note-2233508569](../music163-playlist-song-note/music163-playlist-song-note-2233508569.md), [Home](../../index.md)
 
+| | |
+| --- | --- |
+| description |  |
+| tags |  |
+
 - [playlist-details](#playlist-details)
 - [song-details](#song-details)
 
