@@ -63,7 +63,7 @@ statistics: playlist-count: 26
 
 | Image | Name | Details/Song Note |
 | --- | --- | --- |
-| <img src="assets/music163-playlist-cover-5292172538.jpg" width=200> | 《和平精英》游戏背景音乐收录 - 歌单 - 网易云音乐 | |
+| <img src="assets/music163-playlist-cover-5292172538.jpg" width=200> | 《和平精英》游戏背景音乐收录 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-5292172538.md) |
 
 #### ftg-game-music
 
@@ -116,7 +116,7 @@ statistics: playlist-count: 26
 | --- | --- | --- |
 | <img src="assets/music163-playlist-cover-2975953935.jpg" width=200> | Chubbyemu御用BGM - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2975953935.md) |
 | <img src="assets/music163-playlist-cover-8806741858.jpg" width=200> | 1M-2 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-8806741858.md)<br>[song-note](music163/music163-playlist-song-note/music163-playlist-song-note-8806741858.md) |
-| <img src="../../assets/music163-playlist-cover-2045850636.jpg" width=200> | 《大国崛起》背景音乐 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2045850636.md) |
+| <img src="assets/music163-playlist-cover-2045850636.jpg" width=200> | 《大国崛起》背景音乐 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2045850636.md) |
 
 ### classical-music
 
