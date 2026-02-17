@@ -29,7 +29,7 @@ preview: <https://github.com/abc202306/awesome-music>
 | <img src="assets/music163-playlist-cover-1995068166.jpg" width=200> | 龙珠Z（鸟叔：再见啦，各位…） - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-1995068166.md) |
 | <img src="assets/music163-playlist-cover-3229959209.jpg" width=200> | 同居恋人洛丽塔 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-3229959209.md) |
 | <img src="assets/music163-playlist-cover-2866588035.jpg" width=200> | 『ACG/高萌』萌系番佳作推荐 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2866588035.md) |
-| <img src="../../assets/music163-playlist-cover-8099164778.jpg" width=200> | 暗影格斗2（按剧情顺序） - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-8099164778.md) |
+| <img src="assets/music163-playlist-cover-8099164778.jpg" width=200> | 暗影格斗2（按剧情顺序） - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-8099164778.md) |
 
 ## script
 
