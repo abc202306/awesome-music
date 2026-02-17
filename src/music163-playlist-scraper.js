@@ -133,8 +133,8 @@ class Music163PlaylistScraper {
         markdown += `# ${playListData.id}\n\n`;
         markdown += `<img src="../../assets/music163-playlist-cover-${playListData.idNum}.jpg" width=200>\n\n`;
         markdown += playlisturlwithname + '\n\n';
-        const songNoteName = `music163-playlist-song-note-${playListData.idNum}.md`;
-        markdown += `> see-also: [${songNoteName}](../music163-playlist-song-note/${songNoteName}), [Home](../../index.md)\n\n`;
+        const songNoteName = `music163-playlist-song-note-${playListData.idNum}`;
+        markdown += `> see-also: [${songNoteName}](../music163-playlist-song-note/${songNoteName}.md), [Home](../../index.md)\n\n`;
         markdown += `- [playlist-details](#playlist-details)\n- [song-details](#song-details)\n\n`;
         markdown += `## playlist-details\n\n`;
         markdown += `| playlist-id | playlist-title | url |\n`;

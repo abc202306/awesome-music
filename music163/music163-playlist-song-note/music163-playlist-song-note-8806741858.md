@@ -1,0 +1,18 @@
+---
+layout: page
+date: 2026-02-17
+---
+
+# music163-playlist-song-note-8806741858
+
+<img src="../../assets/music163-playlist-cover-8806741858.jpg" width=200>
+
+[1M-2 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=8806741858>)
+
+> see-also: [music163-playlist-item-8806741858](../music163-playlist-item/music163-playlist-item-8806741858.md), [Home](../../index.md)
+
+## 川井憲次---1M-2-mp3
+
+> note: 川井憲次 - 1M-2.mp3 - <https://music.163.com/#/song?id=30612663>
+
+<audio controls preload="none"><source src="../../assets/music163-playlist-song-note-8806741858/music163-song-30612663 - 川井憲次 - 1M-2.mp3" type="audio/mpeg"></audio>

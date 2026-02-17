@@ -1,0 +1,39 @@
+---
+layout: page
+collection:
+  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 1M-2 - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=8806741858
+author: "[kkkk_FwGi](https://music.163.com/user/home?id=1643684388)"
+date: 2023-10-18
+description:
+tags:
+---
+
+# music163-playlist-item-8806741858
+
+<img src="../../assets/music163-playlist-cover-8806741858.jpg" width=200>
+
+[1M-2 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=8806741858>)
+
+> see-also: [music163-playlist-song-note-8806741858](../music163-playlist-song-note/music163-playlist-song-note-8806741858.md), [Home](../../index.md)
+
+| | |
+| --- | --- |
+| description |  |
+| tags |  |
+
+- [playlist-details](#playlist-details)
+- [song-details](#song-details)
+
+## playlist-details
+
+| playlist-id | playlist-title | url |
+| --- | --- | --- |
+| music163-playlist-item-8806741858 | 1M-2 - 歌单 - 网易云音乐 | [https://music.163.com/#/playlist?id=8806741858](<https://music.163.com/#/playlist?id=8806741858>) |
+
+## song-details
+
+| row-id | song-id | song-title | song-subtitle | song-time-length | playlist-id | url | song-artists | song-albums |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | music163-song-30612663 | 1M-2 |  | 03:32 | [1M-2 - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=8806741858>) | [https://music.163.com/#/song?id=30612663](<https://music.163.com/#/song?id=30612663>) | [川井憲次](<https://music.163.com/#/artist?id=14437>) | [Kenji Kawai Original Masters vol.2 ~よみがえる第二次世界大戦~ APOCALYPSE](<https://music.163.com/#/album?id=3103094>) |
