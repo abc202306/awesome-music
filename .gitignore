@@ -124,7 +124,7 @@
 
 # *.py
 # *.ts
-# *.js
+*.js
 # *.ps1
 
 # ##### 2.2.4.2.3 FEDTD - Data Files
