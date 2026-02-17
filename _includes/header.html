@@ -2,7 +2,12 @@
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign filtered_paths = default_paths | where_exp: "path", "path does not contain 'music163/'" -%}
+    {%- assign filtered_paths = "" | split: "" -%}
+    {%- for path in default_paths -%}
+      {%- unless path contains "music163/" -%}
+        {%- assign filtered_paths = filtered_paths | push: path -%}
+      {%- endunless -%}
+    {%- endfor -%}
     {%- assign page_paths = site.minima.nav_pages | default: filtered_paths -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
