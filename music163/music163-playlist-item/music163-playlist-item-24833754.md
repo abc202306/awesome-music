@@ -1,9 +1,15 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "东方红魔乡 - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=24833754"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 东方红魔乡 - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=24833754
+author: "[樱井呜呜](https://music.163.com/user/home?id=29322104)"
+date: 2014-08-15
+description: 东方红魔乡原曲（按照游戏顺序）。本人基本上每一曲都喜欢。初心者建议05.06.07.13 .虽然本人最喜欢UN就是了。
+tags:
+  - 游戏
+cover: "[[music163-playlist-cover-24833754.jpg]]"
 ---
 
 # music163-playlist-item-24833754

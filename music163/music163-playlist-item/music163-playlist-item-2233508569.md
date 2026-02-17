@@ -1,9 +1,14 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "点兔bgm - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=2233508569"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 点兔bgm - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=2233508569
+author: "[毕生-缘](https://music.163.com/user/home?id=1384622277)"
+date: 2018-05-20
+description:
+tags:
+cover: "[[music163-playlist-cover-2233508569.jpg]]"
 ---
 
 # music163-playlist-item-2233508569

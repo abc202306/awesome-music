@@ -1,9 +1,17 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "世界经典古典音乐100首 - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=761345092"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 世界经典古典音乐100首 - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=761345092
+author: "[客居琉璃](https://music.163.com/user/home?id=402624714)"
+date: 2017-06-13
+description: 也许直到听烂这100首你也没出现。
+tags:
+  - 古典
+  - 世界音乐
+  - 经典
+cover: "[[music163-playlist-cover-761345092.jpg]]"
 ---
 
 # music163-playlist-item-761345092

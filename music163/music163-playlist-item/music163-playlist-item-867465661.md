@@ -1,9 +1,17 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "我的世界背景音乐（含唱片） - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=867465661"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 我的世界背景音乐（含唱片） - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=867465661
+author: "[绿猫子OVO](https://music.163.com/user/home?id=405519684)"
+date: 2017-08-04
+description: 我的世界背景音乐（含唱片）  <br>希望能唤起你的一些回忆  <br>如果没能及时更新记得戳我～
+tags:
+  - 游戏
+  - 经典
+  - 放松
+cover: "[[music163-playlist-cover-867465661.jpg]]"
 ---
 
 # music163-playlist-item-867465661

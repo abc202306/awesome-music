@@ -1,9 +1,14 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "同居恋人洛丽塔 - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=3229959209"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 同居恋人洛丽塔 - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=3229959209
+author: "[帐号已注销](https://music.163.com/user/home?id=347152206)"
+date: 2020-02-05
+description: 同居恋人洛丽塔的bgm
+tags:
+cover: "[[music163-playlist-cover-3229959209.jpg]]"
 ---
 
 # music163-playlist-item-3229959209

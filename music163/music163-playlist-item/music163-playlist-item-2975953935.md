@@ -1,9 +1,14 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "Chubbyemu御用BGM - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=2975953935"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: Chubbyemu御用BGM - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=2975953935
+author: "[2x910](https://music.163.com/user/home?id=1721441597)"
+date: 2019-09-08
+description: Chubby Emu
+tags:
+cover: "[[music163-playlist-cover-2975953935.jpg]]"
 ---
 
 # music163-playlist-item-2975953935

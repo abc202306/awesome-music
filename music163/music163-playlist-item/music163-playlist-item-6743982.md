@@ -1,9 +1,15 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "Red Alert 3（红警3原声） - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=6743982"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: Red Alert 3（红警3原声） - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=6743982
+author: "[Helix_张淦](https://music.163.com/user/home?id=3467081)"
+date: 2013-12-11
+description: 游戏——红警3原声，激扬的Hell march是其中最常被引用的BGM，里面德语喊的是Die Waffen – legt an”，听起来有点像中文“1—2—3—立定—”
+tags:
+  - 影视原声
+cover: "[[music163-playlist-6743982.png]]"
 ---
 
 # music163-playlist-item-6743982

@@ -1,9 +1,15 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "《進撃的巨人》神曲系列 - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=6613467419"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 《進撃的巨人》神曲系列 - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=6613467419
+author: "[空气FA](https://music.163.com/user/home?id=52888563)"
+date: 2021-02-13
+description: 2023年11月4日，完结撒花，感谢一路的陪伴，官方音源基本都回来了，但是需要VIP，欢迎大家补充
+tags:
+  - 影视原声
+cover: "[[music163-playlist-cover-6613467419.jpg]]"
 ---
 
 # music163-playlist-item-6613467419

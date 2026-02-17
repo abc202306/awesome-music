@@ -1,9 +1,14 @@
 ---
-layout: page
+layout: default
 collection:
-  - "[[collection-music163-playlist-item|collection-music163-playlist-item]]"
-title: "日系RPGmaker制作游戏ost - 歌单 - 网易云音乐"
-url: "https://music.163.com/#/playlist?id=509808425"
+  - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
+title: 日系RPGmaker制作游戏ost - 歌单 - 网易云音乐
+url: https://music.163.com/#/playlist?id=509808425
+author: "[lucifer陳](https://music.163.com/user/home?id=342639099)"
+date: 2016-11-14
+description:
+tags:
+cover: "[[music163-playlist-cover-509808425.jpg]]"
 ---
 
 # music163-playlist-item-509808425
