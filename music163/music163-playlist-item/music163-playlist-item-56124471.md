@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 collection:
   - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
 title: 【全】请问您今天要来点兔子吗？第一季 - 歌单 - 网易云音乐

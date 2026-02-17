@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 collection:
   - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
 title: 理科生学习歌单〖析万物之理 判天地之美〗 - 歌单 - 网易云音乐

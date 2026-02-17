@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 collection:
   - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
 title: 世界经典古典音乐100首 - 歌单 - 网易云音乐

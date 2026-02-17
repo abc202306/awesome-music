@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 collection:
   - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
 title: 火影忍者OP ED顺序排列 1--终章 - 歌单 - 网易云音乐

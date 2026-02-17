@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 collection:
   - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
 title: 死亡的筆記 OP-ED-OST - 歌单 - 网易云音乐

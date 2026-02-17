@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 collection:
   - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
 title: 龙珠Z（鸟叔：再见啦，各位…） - 歌单 - 网易云音乐
