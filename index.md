@@ -6,6 +6,8 @@ layout: home
 
 preview: <https://abc202306.github.io/awesome-music>
 
+statistics: playlist-count: 26
+
 - [playlist](#playlist)
   - [game-music](#game-music)
     - [slg-game-music](#slg-game-music)

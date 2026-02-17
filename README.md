@@ -6,12 +6,15 @@ layout: page
 
 preview: <https://abc202306.github.io/awesome-music>
 
+statistics: playlist-count: 26
+
 - [playlist](#playlist)
   - [game-music](#game-music)
     - [slg-game-music](#slg-game-music)
     - [rpg-game-music](#rpg-game-music)
     - [soc-game-music](#soc-game-music)
     - [stg-game-music](#stg-game-music)
+    - [fps-game-music](#fps-game-music)
     - [ftg-game-music](#ftg-game-music)
   - [galgame-music](#galgame-music)
     - [galgame-tool-music](#galgame-tool-music)
@@ -33,6 +36,7 @@ preview: <https://abc202306.github.io/awesome-music>
 | Image | Name | Details/Song Note |
 | --- | --- | --- |
 | <img src="assets/music163-playlist-cover-6743982.jpg" width=200> | Red Alert 3（红警3原声） - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-6743982.md)<br>[song-note](music163/music163-playlist-song-note/music163-playlist-song-note-6743982.md) |
+| <img src="assets/music163-playlist-cover-3116114967.jpg" width=200> | 帝国时代2决定版BGM - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-3116114967.md) |
 | <img src="assets/music163-playlist-cover-4869813511.jpg" width=200> | 瘟疫公司官方游戏音乐 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-4869813511.md) |
 
 #### rpg-game-music
@@ -46,12 +50,20 @@ preview: <https://abc202306.github.io/awesome-music>
 | Image | Name | Details/Song Note |
 | --- | --- | --- |
 | <img src="assets/music163-playlist-cover-867465661.jpg" width=200> | 我的世界背景音乐（含唱片） - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-867465661.md) |
+| <img src="assets/music163-playlist-cover-2297906929.jpg" width=200> | 宇宙沙盒 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2297906929.md)<br>[song-note](music163/music163-playlist-song-note/music163-playlist-song-note-2297906929.md) |
+| <img src="assets/music163-playlist-cover-3115158586.jpg" width=200> | 孢子spore - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-3115158586.md) |
 
 #### stg-game-music
 
 | Image | Name | Details/Song Note |
 | --- | --- | --- |
 | <img src="assets/music163-playlist-cover-24833754.jpg" width=200> | 东方红魔乡 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-24833754.md) |
+
+#### fps-game-music
+
+| Image | Name | Details/Song Note |
+| --- | --- | --- |
+| <img src="assets/music163-playlist-cover-5292172538.jpg" width=200> | 《和平精英》游戏背景音乐收录 - 歌单 - 网易云音乐 | |
 
 #### ftg-game-music
 
@@ -103,6 +115,8 @@ preview: <https://abc202306.github.io/awesome-music>
 | Image | Name | Details/Song Note |
 | --- | --- | --- |
 | <img src="assets/music163-playlist-cover-2975953935.jpg" width=200> | Chubbyemu御用BGM - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2975953935.md) |
+| <img src="assets/music163-playlist-cover-8806741858.jpg" width=200> | 1M-2 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-8806741858.md)<br>[song-note](music163/music163-playlist-song-note/music163-playlist-song-note-8806741858.md) |
+| <img src="../../assets/music163-playlist-cover-2045850636.jpg" width=200> | 《大国崛起》背景音乐 - 歌单 - 网易云音乐 | [item](music163/music163-playlist-item/music163-playlist-item-2045850636.md) |
 
 ### classical-music
 
