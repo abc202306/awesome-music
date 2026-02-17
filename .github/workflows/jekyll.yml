@@ -37,6 +37,10 @@ jobs:
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
           's|src="([^"]*/)?assets/|src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/|g'
+      - name: Replace link from markdown file to html file for GitHub Pages
+        run: |
+          find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+          's|href="([^"]*)\.md"|href="\1"|g'
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
