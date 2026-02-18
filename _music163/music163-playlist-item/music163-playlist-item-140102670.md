@@ -5,13 +5,16 @@ collection:
 title: 火影忍者OP ED顺序排列 1--终章 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=140102670
 author: "[轻松加点愉快](https://music.163.com/user/home?id=102067165)"
-date: 2015-12-15
 description: 从一首到另一首,每一曲都能唤起深藏的回忆。
 tags:
   - 影视原声
   - 80后
   - 90后
 cover: "[[music163-playlist-cover-140102670.jpg]]"
+ctime: 2026-02-17T16:46:11+08:00
+mtime: 2026-02-17T21:41:26+08:00
+published: 2015-12-15
+date: 2015-12-15
 ---
 
 # music163-playlist-item-140102670

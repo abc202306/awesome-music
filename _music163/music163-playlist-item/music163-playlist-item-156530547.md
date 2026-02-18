@@ -5,12 +5,15 @@ collection:
 title: 死亡的筆記 OP-ED-OST - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=156530547
 author: "[赫蒂斯](https://music.163.com/user/home?id=100085374)"
-date: 2016-01-19
 description: 《死亡笔记》（Death Note）是大场鸫原作，小畑健作画的漫画。  <br>二人在2003年8月于集英社杂志《周刊少年Jump》36号上以短篇形式刊载《死亡笔记》的原型故事，获得读者投票第一位，并于2003年12月至2006年5月刊登连载版，共108话，内容与短篇有所不同。漫画连载版亦改编成电视动画、电影、轻小说、电视剧等。
 tags:
   - 日语
   - 影视原声
 cover: "[[music163-playlist-cover-156530547.jpg]]"
+ctime: 2026-02-17T17:13:51+08:00
+mtime: 2026-02-17T21:41:37+08:00
+published: 2016-01-19
+date: 2016-01-19
 ---
 
 # music163-playlist-item-156530547

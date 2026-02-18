@@ -5,9 +5,12 @@ collection:
 title: 孢子spore - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=3115158586
 author: "[cBo6oAbl](https://music.163.com/user/home?id=1579876660)"
-date: 2019-12-12
 description:
 tags:
+ctime: 2026-02-18T00:02:45+08:00
+mtime: 2026-02-18T00:04:18+08:00
+published: 2019-12-12
+date: 2019-12-12
 ---
 
 # music163-playlist-item-3115158586

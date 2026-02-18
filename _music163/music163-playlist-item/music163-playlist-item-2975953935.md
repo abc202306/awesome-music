@@ -5,10 +5,13 @@ collection:
 title: Chubbyemu御用BGM - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=2975953935
 author: "[2x910](https://music.163.com/user/home?id=1721441597)"
-date: 2019-09-08
 description: Chubby Emu
 tags:
 cover: "[[music163-playlist-cover-2975953935.jpg]]"
+ctime: 2026-02-17T16:43:08+08:00
+mtime: 2026-02-17T21:44:09+08:00
+published: 2019-09-08
+date: 2019-09-08
 ---
 
 # music163-playlist-item-2975953935

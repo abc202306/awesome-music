@@ -5,13 +5,16 @@ collection:
 title: 帝国时代2决定版BGM - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=3116114967
 author: "[余歌未竟](https://music.163.com/user/home?id=345200656)"
-date: 2019-12-13
 description: 经典永不落幕，光辉永不消逝!
 tags:
   - 世界音乐
   - 怀旧
   - 影视原声
 cover: "[[../../assets/music163-playlist-cover-3116114967.jpg]]"
+ctime: 2026-02-17T22:11:10+08:00
+mtime: 2026-02-17T23:38:07+08:00
+published: 2019-12-13
+date: 2019-12-13
 ---
 
 # music163-playlist-item-3116114967

@@ -4,7 +4,6 @@ collection:
   - "[[../collection/collection-music163-playlist-item|collection-music163-playlist-item]]"
 title: 暗影格斗2（按剧情顺序） - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=8099164778
-date: 2023-01-26
 author: "[陆军队队长](https://music.163.com/user/home?id=7924056828)"
 description: 这是按剧情顺序 含石林、地狱与旧伤bgm  <br>原声大碟
 tags:
@@ -12,6 +11,10 @@ tags:
   - 游戏
   - 经典
 cover: "[[music163-playlist-cover-8099164778.jpg]]"
+ctime: 2026-02-17T17:24:41+08:00
+mtime: 2026-02-17T21:44:30+08:00
+published: 2023-01-26
+date: 2023-01-26
 ---
 
 # music163-playlist-item-8099164778

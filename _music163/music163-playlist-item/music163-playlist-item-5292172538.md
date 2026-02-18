@@ -5,13 +5,16 @@ collection:
 title: 《和平精英》游戏背景音乐收录 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=5292172538
 author: "[帐号已注销](https://music.163.com/user/home?id=1948609522)"
-date: 2020-10-18
 description: 搜集从《刺激战场》到《和平精英》内游戏常听到的所有背景音乐，包含推广曲、车载音乐、背景音乐。
 tags:
   - 游戏
   - ACG
   - 快乐
 cover: "[[../../assets/music163-playlist-cover-5292172538.jpg]]"
+ctime: 2026-02-17T23:22:24+08:00
+mtime: 2026-02-17T23:38:07+08:00
+published: 2020-10-18
+date: 2020-10-18
 ---
 
 # music163-playlist-item-5292172538

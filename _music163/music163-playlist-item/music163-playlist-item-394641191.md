@@ -5,13 +5,16 @@ collection:
 title: 传说之下UNDERTALE音乐全收录（持续更新） - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=394641191
 author: "[盒纸Napkins](https://music.163.com/user/home?id=95841669)"
-date: 2016-06-04
 description: 上方游戏原声，101首之后是Remix之类的改编版本  <br>总之无论是在剧情还是在音乐都很赞的一款游戏，值得推荐  <br>持续更新中
 tags:
   - 游戏
   - ACG
   - 电子
 cover: "[[music163-playlist-cover-394641191.jpg]]"
+ctime: 2026-02-17T16:49:18+08:00
+mtime: 2026-02-17T21:41:45+08:00
+published: 2016-06-04
+date: 2016-06-04
 ---
 
 # music163-playlist-item-394641191

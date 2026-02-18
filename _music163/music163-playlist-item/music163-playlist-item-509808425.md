@@ -5,10 +5,13 @@ collection:
 title: 日系RPGmaker制作游戏ost - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=509808425
 author: "[lucifer陳](https://music.163.com/user/home?id=342639099)"
-date: 2016-11-14
 description:
 tags:
 cover: "[[music163-playlist-cover-509808425.jpg]]"
+ctime: 2026-02-17T16:38:50+08:00
+mtime: 2026-02-17T21:43:21+08:00
+published: 2016-11-14
+date: 2016-11-14
 ---
 
 # music163-playlist-item-509808425

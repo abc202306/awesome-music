@@ -5,13 +5,16 @@ collection:
 title: 龙珠Z（鸟叔：再见啦，各位…） - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=1995068166
 author: "[狼萍丶](https://music.163.com/user/home?id=572875963)"
-date: 2017-11-29
 description: 男人，就该不断去超越自己的极限，不断去挑战  <br>(此歌单，前面的主要是龙珠Z中的经典BGM，后面少部分有龙珠超，GT，七龙珠中的BGM)
 tags:
   - 感动
   - 治愈
   - ACG
 cover: "[[music163-playlist-cover-1995068166.jpg]]"
+ctime: 2026-02-17T17:18:31+08:00
+mtime: 2026-02-17T21:43:37+08:00
+published: 2017-11-29
+date: 2017-11-29
 ---
 
 # music163-playlist-item-1995068166

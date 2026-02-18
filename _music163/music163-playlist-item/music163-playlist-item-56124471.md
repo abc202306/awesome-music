@@ -5,7 +5,6 @@ collection:
 title: 【全】请问您今天要来点兔子吗？第一季 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=56124471
 author: "[正六边形的雪花](https://music.163.com/user/home?id=52722727)"
-date: 2015-03-04
 description: “Daydream café”——《请问您今天要来点兔子吗？》——ご注文はココアですか?
 tags:
   - 影视
@@ -13,6 +12,10 @@ tags:
   - ACG
   - 治愈
 cover: "[[music163-playlist-cover-56124471.jpg]]"
+ctime: 2026-02-17T16:54:02+08:00
+mtime: 2026-02-17T21:41:10+08:00
+published: 2015-03-04
+date: 2015-03-04
 ---
 
 # music163-playlist-item-56124471

@@ -5,12 +5,15 @@ collection:
 title: 「JOJO的奇妙冒险」OP ED 处刑曲 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=9515375
 author: "[螃蟹与干脆面](https://music.163.com/user/home?id=8892659)"
-date: 2014-03-05
 description: その血の運命～JO～JO！
 tags:
   - 日语
   - ACG
 cover: "[[music163-playlist-cover-9515375.jpg]]"
+ctime: 2026-02-17T17:16:20+08:00
+mtime: 2026-02-17T21:39:46+08:00
+published: 2014-03-05
+date: 2014-03-05
 ---
 
 # music163-playlist-item-9515375

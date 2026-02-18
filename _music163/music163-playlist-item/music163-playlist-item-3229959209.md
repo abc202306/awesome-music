@@ -5,10 +5,13 @@ collection:
 title: 同居恋人洛丽塔 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=3229959209
 author: "[帐号已注销](https://music.163.com/user/home?id=347152206)"
-date: 2020-02-05
 description: 同居恋人洛丽塔的bgm
 tags:
 cover: "[[music163-playlist-cover-3229959209.jpg]]"
+ctime: 2026-02-17T17:20:38+08:00
+mtime: 2026-02-17T21:44:13+08:00
+published: 2020-02-05
+date: 2020-02-05
 ---
 
 # music163-playlist-item-3229959209

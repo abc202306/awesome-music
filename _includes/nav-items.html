@@ -1,7 +1,0 @@
-{%- for path in include.paths -%}
-  {%- assign page = site.pages | where: "path", path | first -%}
-  {%- assign page_title = page.title | default: page.name | markdownify | strip_html -%}
-  {%- if page_title != "" -%}
-    <a class="page-link" href="{{ page.url | relative_url }}">{{ page_title }}</a>
-  {%- endif -%}
-{%- endfor -%}

@@ -5,10 +5,13 @@ collection:
 title: 宇宙沙盒 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=2297906929
 author: "[伊斯杰兔](https://music.163.com/user/home?id=436673312)"
-date: 2018-07-02
 description:
 tags:
 cover: "[[../../assets/music163-playlist-cover-2297906929.jpg]]"
+ctime: 2026-02-17T23:31:13+08:00
+mtime: 2026-02-17T23:43:15+08:00
+published: 2018-07-02
+date: 2018-07-02
 ---
 
 # music163-playlist-item-2297906929

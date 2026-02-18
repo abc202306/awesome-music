@@ -5,13 +5,16 @@ collection:
 title: 世界经典古典音乐100首 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=761345092
 author: "[客居琉璃](https://music.163.com/user/home?id=402624714)"
-date: 2017-06-13
 description: 也许直到听烂这100首你也没出现。
 tags:
   - 古典
   - 世界音乐
   - 经典
 cover: "[[music163-playlist-cover-761345092.jpg]]"
+ctime: 2026-02-17T16:30:11+08:00
+mtime: 2026-02-17T21:43:26+08:00
+published: 2017-06-13
+date: 2017-06-13
 ---
 
 # music163-playlist-item-761345092

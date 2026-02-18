@@ -5,12 +5,15 @@ collection:
 title: 理科生学习歌单〖析万物之理 判天地之美〗 - 歌单 - 网易云音乐
 url: https://music.163.com/#/playlist?id=2110349418
 author: "[帐号已注销](https://music.163.com/user/home?id=271972411)"
-date: 2018-02-20
 description: 建议听熟了歌再边听边学习  <br>在熟悉、舒适的环境下学习效率才高  <br>否则只是浪费时间和精力  <br>  <br>效果因人而异  <br>如果觉得注意力反而下降了，请不要边听边学习  <br>  <br>学习时建议听拨弦类乐曲  <br>希望喜欢  <br>  <br>封面：GTGRAPHICS.DE
 tags:
   - 学习
   - 安静
 cover: "[[music163-playlist-cover-2110349418.jpg]]"
+ctime: 2026-02-17T16:58:44+08:00
+mtime: 2026-02-17T21:43:51+08:00
+published: 2018-02-20
+date: 2018-02-20
 ---
 
 # music163-playlist-item-2110349418
