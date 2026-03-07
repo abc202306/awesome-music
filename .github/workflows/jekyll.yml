@@ -41,6 +41,14 @@ jobs:
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
           's|\./_posts/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^)]*)\.md|./\1/\2/\3/\4.html|g'
+      - name: Rewrite Home path
+        run: |
+          find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+          's|\[Home\]\(\.\.\/index.md\)|[Home](../../../)|g'
+      - name: Rewrite Jeykll Post paths for Jekyll
+        run: |
+          find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+          's|\./_posts/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^)]*)\.md|./\1/\2/\3/\4.html|g'
       - name: Replace link from markdown file to html file for GitHub Pages 01
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
