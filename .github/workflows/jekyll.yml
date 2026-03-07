@@ -40,7 +40,7 @@ jobs:
       - name: Rewrite Jeykll Post paths for Jekyll
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|.\/_posts\/(\d{4})-(\d{2})-(\d{2})-([^\)]*)\.md|./$1/$2/$3/$4.html|g'
+          's|\.\/_posts\/(\d{4})-(\d{2})-(\d{2})-([^\)]*)\.md|./\1/\2/\3/\4.html|g'
       - name: Replace link from markdown file to html file for GitHub Pages 01
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
