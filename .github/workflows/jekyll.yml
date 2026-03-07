@@ -40,7 +40,7 @@ jobs:
       - name: Rewrite Jeykll Post paths for Jekyll 01
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|\(\.\./_posts/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^)]*)\.md|(../../../\1/\2/\3/\4.html|g'
+          's|\.\./_posts/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^)]*)\.md|../../../\1/\2/\3/\4.html|g'
       - name: Rewrite Jeykll Post paths for Jekyll 02
         run: |
           find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
