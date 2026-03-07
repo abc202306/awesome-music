@@ -1,26 +1,28 @@
 Jekyll::Hooks.register [:pages, :documents], :pre_render do |item|
-  # 获取相对路径用于条件判断
+  # --- 配置表：[ 正则表达式, 替换值, 描述, 适用路径过滤 ] ---
+  rules = [
+    # 规则 1: 重写 LFS 资源路径
+    [/src="([^"]*\/)?assets\//, 'src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/', "LFS 路径重写", :all],
+
+    # 规则 2: _posts 目录下的相对路径修正
+    [/\.\.\//, "../../../", "Posts 深度修正", :posts_only],
+
+    # 规则 3: Post 源码路径转为永久链接路径
+    [/\.\/_posts\/(\d{4})-(\d{2})-(\d{2})-([^\)]*)\.md/, './\1/\2/\3/\4.html', "Markdown 转 HTML 链接", :all],
+
+    # 规则 4: 去除括号中的 .md 后缀
+    [/\(([^)]*)\.md/, '(\1', "清理 MD 括号链接", :all],
+
+    # 规则 5: 去除 href 里的 .md 后缀
+    [/href="([^"]*)\.md"/, 'href="\1"', "清理 href 链接", :all]
+  ]
+
+  # --- 执行引擎 ---
   rel_path = item.relative_path
-  content = item.content
-
-  # --- 规则 1: 重写 LFS 路径 (全局) ---
-  # 对应: s|src="([^"]*/)?assets/|src="https://media.githubusercontent.com..."|g
-  content.gsub!(/src="([^"]*\/)?assets\//, 'src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/')
-
-  # --- 规则 2: 重写 _posts 文件夹内的相对路径 ---
-  # 对应: find ./_posts/ ... sed 's|\.\./|../../../|g'
-  if rel_path.start_with?("_posts/")
-    content.gsub!("../", "../../../")
+  rules.each do |regex, replacement, description, scope|
+    # 如果范围是 :posts_only，则跳过非 _posts 文件夹的文件
+    next if scope == :posts_only && !rel_path.start_with?("_posts/")
+    
+    item.content.gsub!(regex, replacement)
   end
-
-  # --- 规则 3: 将 Markdown 内部链接重写为目录结构 (全局) ---
-  # 对应: s|\./_posts/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^)]*)\.md|./\1/\2/\3/\4.html|g
-  content.gsub!(/\.\/_posts\/(\d{4})-(\d{2})-(\d{2})-([^\)]*)\.md/, './\1/\2/\3/\4.html')
-
-  # --- 规则 4 & 5: 去除 Markdown 文件链接的扩展名 (全局) ---
-  # 对应: s|\(([^\)]*)\.md|\(\1|g  以及  s|href="([^"]*)\.md"|href="\1"|g
-  content.gsub!(/\(([^)]*)\.md/, '(\1') # 处理 (link.md) -> (link)
-  content.gsub!(/href="([^"]*)\.md"/, 'href="\1"') # 处理 href="link.md" -> href="link"
-
-  item.content = content
 end
