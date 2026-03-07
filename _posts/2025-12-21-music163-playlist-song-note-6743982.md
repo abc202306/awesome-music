@@ -12,7 +12,7 @@ published: 2025-12-21
 
 [Red Alert 3（红警3原声） - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=6743982>)
 
-> see-also: [2013-12-11-music163-playlist-item-6743982](<../_posts/2013-12-11-music163-playlist-item-6743982.md>), [Home](../index.md)
+> see-also: [2013-12-11-music163-playlist-item-6743982](../_posts/2013-12-11-music163-playlist-item-6743982.md), [Home](../index.md)
 
 - [soviet-march](#soviet-march)
   - [soviet-march-mp3](#soviet-march-mp3)
