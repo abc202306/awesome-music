@@ -174,7 +174,7 @@ class Music163PlaylistScraper {
 
         markdown += `- [playlist-details](#playlist-details)\n- [song-details](#song-details)\n\n`;
 
-        markdown += `## [[playlist-details]]\n\n`;
+        markdown += `## playlist-details\n\n`;
         markdown += `| playlist-id | playlist-title | url |\n`;
         markdown += `| --- | --- | --- |\n`;
         markdown += `| ${playListData.id} | ${playListData.title} | [${playlisturl}](<${playlisturl}>) |\n\n`;

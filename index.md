@@ -8,7 +8,8 @@ preview: <https://abc202306.github.io/awesome-music>
 
 statistics: playlist-count: 26
 
-- [playlist](#playlist)
+- [playlist-song-note](#playlist-song-note)
+- [playlist-item](#playlist-item)
   - [game-music](#game-music)
     - [slg-game-music](#slg-game-music)
     - [rpg-game-music](#rpg-game-music)
@@ -27,7 +28,15 @@ statistics: playlist-count: 26
   - [classical-music](#classical-music)
 - [script](#script)
 
-## playlist
+## playlist-song-note
+
+| Image | Name | Song Note |
+| --- | --- | --- |
+| <img src="assets/music163-playlist-cover-6743982.jpg" width=200> | [Red Alert 3（红警3原声） - 歌单 - 网易云音乐](./_posts/2013-12-11-music163-playlist-item-6743982.md) | [song-note](./_posts/2025-12-21-music163-playlist-song-note-6743982.md) 
+| <img src="assets/music163-playlist-cover-2297906929.jpg" width=200> | [宇宙沙盒 - 歌单 - 网易云音乐](./_posts/2018-07-02-music163-playlist-item-2297906929.md) | [song-note](./_posts/2026-02-17-music163-playlist-song-note-2297906929.md) |
+| <img src="assets/music163-playlist-cover-8806741858.jpg" width=200> | [1M-2 - 歌单 - 网易云音乐](./_posts/2023-10-18-music163-playlist-item-8806741858.md) | [song-note](./_posts/2026-02-17-music163-playlist-song-note-8806741858.md) |
+
+## playlist-item
 
 ### game-music
 
@@ -129,4 +138,3 @@ statistics: playlist-count: 26
 ## script
 
 1. [music163-playlist-scraper.ts](src/music163-playlist-scraper.ts)
-
