@@ -166,7 +166,7 @@ class Music163PlaylistScraper {
 
         markdown += frontMatter + '\n';
         markdown += `# ${playListData.id}\n\n`;
-        markdown += `<img src="../../assets/music163-playlist-cover-${playListData.idNum}.jpg" width=200>\n\n`;
+        markdown += `<img src="../assets/music163-playlist-cover-${playListData.idNum}.jpg" width=200>\n\n`;
         markdown += playlisturlwithname + '\n\n';
 
         const songNoteName = `music163-playlist-song-note-${playListData.idNum}.md`;
