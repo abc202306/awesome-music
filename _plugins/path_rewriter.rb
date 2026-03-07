@@ -5,7 +5,7 @@ Jekyll::Hooks.register [:pages, :documents], :pre_render do |item|
 
   # --- 规则 1: 重写 LFS 路径 (全局) ---
   # 对应: s|src="([^"]*/)?assets/|src="https://media.githubusercontent.com..."|g
-  content.gsub!(/src="([^"]*\/)?assets\//, 'src="https://media.githubusercontent.comabc202306/awesome-music/refs/heads/main/assets/')
+  content.gsub!(/src="([^"]*\/)?assets\//, 'src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/')
 
   # --- 规则 2: 重写 _posts 文件夹内的相对路径 ---
   # 对应: find ./_posts/ ... sed 's|\.\./|../../../|g'
