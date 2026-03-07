@@ -170,7 +170,7 @@ class Music163PlaylistScraper {
         markdown += playlisturlwithname + '\n\n';
 
         const songNoteName = `music163-playlist-song-note-${playListData.idNum}.md`;
-        markdown += `> see-also: [${songNoteName}](../music163-playlist-song-note/${songNoteName}), [Home](../../index.md)\n\n`;
+        markdown += `> see-also: [${songNoteName}](../music163-playlist-song-note/${songNoteName}), [Home](../index.md)\n\n`;
 
         markdown += `- [playlist-details](#playlist-details)\n- [song-details](#song-details)\n\n`;
 
