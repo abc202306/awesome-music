@@ -33,26 +33,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Rewrite LFS paths for GitHub Pages
-        run: |
-          find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|src="([^"]*/)?assets/|src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/|g'
-      - name: Rewrite Jeykll Post paths for Jekyll 01
-        run: |
-          find ./_posts/ -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|\.\./|../../../|g'
-      - name: Rewrite Jeykll Post paths for Jekyll 03
-        run: |
-          find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|\./_posts/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^)]*)\.md|./\1/\2/\3/\4.html|g'
-      - name: Replace link from markdown file to html file for GitHub Pages 01
-        run: |
-          find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|\(([^\)]*)\.md|\(\1|g'
-      - name: Replace link from markdown file to html file for GitHub Pages 02
-        run: |
-          find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
-          's|href="([^"]*)\.md"|href="\1"|g'
+      # - name: Rewrite LFS paths for GitHub Pages
+      #   run: |
+      #     find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+      #     's|src="([^"]*/)?assets/|src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/|g'
+      # - name: Rewrite Jeykll Post paths for Jekyll 01
+      #   run: |
+      #     find ./_posts/ -name "*.md" -o -name "*.html" | xargs sed -E -i \
+      #     's|\.\./|../../../|g'
+      # - name: Rewrite Jeykll Post paths for Jekyll 03
+      #   run: |
+      #     find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+      #     's|\./_posts/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^)]*)\.md|./\1/\2/\3/\4.html|g'
+      # - name: Replace link from markdown file to html file for GitHub Pages 01
+      #   run: |
+      #     find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+      #     's|\(([^\)]*)\.md|\(\1|g'
+      # - name: Replace link from markdown file to html file for GitHub Pages 02
+      #   run: |
+      #     find . -name "*.md" -o -name "*.html" | xargs sed -E -i \
+      #     's|href="([^"]*)\.md"|href="\1"|g'
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
