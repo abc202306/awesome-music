@@ -22,10 +22,21 @@ Jekyll::Hooks.register [:pages, :documents], :pre_render do |item|
 
   # --- 执行引擎 ---
   rel_path = item.relative_path
+
   rules.each do |regex, replacement, description, scope|
     # 如果范围是 :posts_only，则跳过非 _posts 文件夹的文件
     next if scope == :posts_only && !rel_path.start_with?("_posts/")
-    
+
+    # 1. 处理正文 (doc.content)
     item.content.gsub!(regex, replacement)
+
+    # 2. 处理 Front Matter (doc.data)
+    # 遍历所有 Key-Value，如果值是字符串，则执行替换
+    item.data.each do |key, value|
+      if value.is_a?(String)
+        # 注意：这里不能用 gsub! 因为会直接修改原始 YAML 引用
+        item.data[key] = value.gsub(regex, replacement)
+      end
+    end
   end
 end
