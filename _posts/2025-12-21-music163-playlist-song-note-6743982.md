@@ -5,6 +5,8 @@ title: MPSNote - Red Alert 3（红警3原声） - 歌单 - 网易云音乐
 ctime: 2025-12-21T19:42:15+08:00
 mtime: 2026-03-07T19:04:47+08:00
 published: 2025-12-21
+urlcover: ../assets/music163-playlist-cover-6743982.jpg
+cover: "[[../assets/music163-playlist-cover-6743982.jpg]]"
 ---
 
 # music163-playlist-song-note-6743982

@@ -1,3 +1,6 @@
+# @author abc202306
+# @description Jekyll 插件：路径重写器
+
 Jekyll::Hooks.register [:pages, :documents], :pre_render do |item|
   # --- 配置表：[ 正则表达式, 替换值, 描述, 适用路径过滤 ] ---
   rules = [
