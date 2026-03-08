@@ -5,7 +5,7 @@ Jekyll::Hooks.register [:pages, :documents], :pre_render do |item|
   # --- 配置表：[ 正则表达式, 替换值, 描述, 适用路径过滤 ] ---
   rules = [
     # 规则 1: 重写 LFS 资源路径
-    [/src="([^"]*\/)?assets\//, 'src="https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/', "LFS 路径重写", :all],
+    [/([^"]*\/)?assets\//, 'https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/', "LFS 路径重写", :all],
 
     # 规则 2: _posts 目录下的相对路径修正
     [/\.\.\//, "../../../", "Posts 深度修正", :posts_only],

@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - "!cover.isEmpty()"
+    order:
+      - file.name
+      - cover
+  - type: cards
+    name: Cards
+    image: note.cover
