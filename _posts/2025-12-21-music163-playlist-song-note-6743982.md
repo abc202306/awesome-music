@@ -17,6 +17,16 @@ cover: "[[../assets/music163-playlist-cover-6743982.jpg]]"
 
 > see-also: [Home](../index.md), [MPItem - Red Alert 3（红警3原声） - 歌单 - 网易云音乐](../_posts/2013-12-11-music163-playlist-item-6743982.md)
 
+| | |
+| --- | --- |
+| description |  |
+| tags |  |
+| author |  |
+| published | 2025-12-21 |
+| ctime | 2025-12-21T19:42:15+08:00 |
+| mtime | 2026-03-07T19:04:47+08:00 |
+| categories |  |
+
 - [soviet-march](#soviet-march)
   - [soviet-march-mp3](#soviet-march-mp3)
   - [soviet-march-reprise-mp3](#soviet-march-reprise-mp3)
