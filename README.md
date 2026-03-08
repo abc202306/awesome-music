@@ -9,6 +9,7 @@ layout: page
 | url-preview | <https://abc202306.github.io/awesome-music> | |
 | url-repo | <https://github.com/abc202306/awesome-music> | |
 | pi-count | 26 | statistics-playlist-item-count |
+| see-also | [2026-03-08-collection-item.md](./_posts/2026-03-08-collection-item.md) | |
 
 - [playlist-song-note](#playlist-song-note)
 - [playlist-item](#playlist-item)
@@ -32,6 +33,8 @@ layout: page
 
 ## playlist-song-note
 
+> see-also: [2026-03-07-collection-music163-song-note.md](./_posts/2026-03-07-collection-music163-song-note.md)
+
 | Image | Name | Song Note |
 | --- | --- | --- |
 | <img src="assets/music163-playlist-cover-6743982.jpg" width=200> | [Red Alert 3（红警3原声） - 歌单 - 网易云音乐](./_posts/2013-12-11-music163-playlist-item-6743982.md) | [song-note](./_posts/2025-12-21-music163-playlist-song-note-6743982.md) 
@@ -39,6 +42,8 @@ layout: page
 | <img src="assets/music163-playlist-cover-8806741858.jpg" width=200> | [1M-2 - 歌单 - 网易云音乐](./_posts/2023-10-18-music163-playlist-item-8806741858.md) | [song-note](./_posts/2026-02-17-music163-playlist-song-note-8806741858.md) |
 
 ## playlist-item
+
+> see-also: [2026-01-22-collection-music163-playlist-item.md](./_posts/2026-01-22-collection-music163-playlist-item.md)
 
 ### game-music
 
