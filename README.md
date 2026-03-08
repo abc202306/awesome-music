@@ -4,9 +4,11 @@ layout: page
 
 # music
 
-preview: <https://abc202306.github.io/awesome-music>
-
-statistics: playlist-count: 26
+| | | |
+| --- | --- | --- |
+| url-preview | <https://abc202306.github.io/awesome-music> | |
+| url-repo | <https://github.com/abc202306/awesome-music> | |
+| pi-count | 26 | statistics-playlist-item-count |
 
 - [playlist-song-note](#playlist-song-note)
 - [playlist-item](#playlist-item)
