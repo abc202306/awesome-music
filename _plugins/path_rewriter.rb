@@ -9,8 +9,11 @@ Jekyll::Hooks.register [:pages, :documents], :pre_render do |item|
 
     [/!\[(\d*?)\]\((.*?)\)/, '<img src="\2" width=\1>', "图片转换", :all],
 
+
     # 规则 2: _posts 目录下的相对路径修正
     [/\.\.\//, "../../../", "Posts 深度修正", :posts_only],
+
+    [/(?<!\.)\.\//, "../../../_posts/", "Posts 深度修正", :posts_only],
 
     # 规则 3: Post 源码路径转为永久链接路径
     [/\.\/_posts\/(\d{4})-(\d{2})-(\d{2})-([^\)]*)(\.md)?/, './\1/\2/\3/\4.html', "Markdown 转 HTML 链接", :all],
