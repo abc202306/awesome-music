@@ -1,0 +1,41 @@
+filters:
+  and:
+    - up.containsAny("[2026-01-22-collection-music163-playlist-item](../_posts/2026-01-22-collection-music163-playlist-item.md)")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - url
+      - cover
+      - urlcover
+      - title
+      - up
+      - author
+      - description
+      - tags
+      - notes
+      - layout
+      - ctime
+      - mtime
+      - published
+      - date
+    sort:
+      - property: published
+        direction: DESC
+    columnSize:
+      file.name: 99
+      note.url: 59
+      note.cover: 72
+      note.urlcover: 59
+      note.title: 134
+      note.up: 49
+      note.author: 114
+      note.description: 116
+      note.tags: 167
+      note.notes: 92
+      note.layout: 72
+      note.ctime: 75
+      note.mtime: 78
+      note.published: 96
+      note.date: 67

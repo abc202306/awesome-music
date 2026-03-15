@@ -11,16 +11,20 @@ mtime: 2026-03-08T22:01:00+08:00
 
 | | |
 | --- | --- |
+| up |  |
+| title |  |
+| url |  |
 | description |  |
 | tags |  |
+| categories |  |
+| cover |  |
 | author |  |
+| notes |  |
 | published |  |
 | ctime | 2026-03-08T21:54:56+08:00 |
 | mtime | 2026-03-08T22:01:00+08:00 |
-| categories |  |
 
 ## records
 
 - [2026-01-22-collection-music163-playlist-item.md](../_posts/2026-01-22-collection-music163-playlist-item.md)
 - [2026-03-07-collection-music163-song-note.md](../_posts/2026-03-07-collection-music163-song-note.md)
-- [2026-03-08-collection-item.md](../_posts/2026-03-08-collection-item.md)

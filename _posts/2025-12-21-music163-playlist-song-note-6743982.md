@@ -1,17 +1,21 @@
 ---
 layout: post
-date: 2025-12-21
+up:
+  - "[2026-03-07-collection-music163-song-note](../_posts/2026-03-07-collection-music163-song-note)"
 title: MPSNote - Red Alert 3（红警3原声） - 歌单 - 网易云音乐
+date: 2025-12-21
 ctime: 2025-12-21T19:42:15+08:00
 mtime: 2026-03-07T19:04:47+08:00
 published: 2025-12-21
 urlcover: ../assets/music163-playlist-cover-6743982.jpg
-cover: "[[../assets/music163-playlist-cover-6743982.jpg]]"
+cover: "[../assets/music163-playlist-cover-6743982.jpg](../assets/music163-playlist-cover-6743982.jpg)"
+notes:
+  - "[MPItem - Red Alert 3（红警3原声） - 歌单 - 网易云音乐](../_posts/2013-12-11-music163-playlist-item-6743982.md)"
 ---
 
 # music163-playlist-song-note-6743982
 
-<img src="../assets/music163-playlist-cover-6743982.jpg" width=200>
+![200](../assets/music163-playlist-cover-6743982.jpg)
 
 [Red Alert 3（红警3原声） - 歌单 - 网易云音乐](<https://music.163.com/#/playlist?id=6743982>)
 
@@ -19,13 +23,18 @@ cover: "[[../assets/music163-playlist-cover-6743982.jpg]]"
 
 | | |
 | --- | --- |
+| up | [2026-03-07-collection-music163-song-note](../_posts/2026-03-07-collection-music163-song-note) |
+| title | MPSNote - Red Alert 3（红警3原声） - 歌单 - 网易云音乐 |
+| url |  |
 | description |  |
 | tags |  |
+| categories |  |
+| cover | [../assets/music163-playlist-cover-6743982.jpg](../assets/music163-playlist-cover-6743982.jpg) |
 | author |  |
+| notes | [MPItem - Red Alert 3（红警3原声） - 歌单 - 网易云音乐](../_posts/2013-12-11-music163-playlist-item-6743982.md) |
 | published | 2025-12-21 |
 | ctime | 2025-12-21T19:42:15+08:00 |
 | mtime | 2026-03-07T19:04:47+08:00 |
-| categories |  |
 
 - [soviet-march](#soviet-march)
   - [soviet-march-mp3](#soviet-march-mp3)

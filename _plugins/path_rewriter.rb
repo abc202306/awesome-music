@@ -7,6 +7,8 @@ Jekyll::Hooks.register [:pages, :documents], :pre_render do |item|
     # 规则 1: 重写 LFS 资源路径
     [/([^"]*\/)?assets\//, 'https://media.githubusercontent.com/media/abc202306/awesome-music/refs/heads/main/assets/', "LFS 路径重写", :all],
 
+    [/!\[(\d*?)\]\((.*?)\)/, '<img src="\2" width=\1>', "图片转换", :all],
+
     # 规则 2: _posts 目录下的相对路径修正
     [/\.\.\//, "../../../", "Posts 深度修正", :posts_only],
 
